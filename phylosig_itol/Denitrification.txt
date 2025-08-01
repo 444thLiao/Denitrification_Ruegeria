@@ -1,0 +1,506 @@
+DATASET_BINARY
+#Binary datasets are visualized as filled or empty symbols, depending on the value associated with a node (0 or 1).
+#Each node can have multiple associated values, and each value will be represented by a symbol (defined in FIELD_SHAPES) with corresponding color and label (from FIELD_COLORS and FIELD_LABELS).
+#Possible values (defined under DATA below) for each node are 1 (filled shapes), 0 (empty shapes) and -1 (completely omitted).
+
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line, which uses space).
+SEPARATOR TAB
+#SEPARATOR SPACE
+#SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL	Denitrification
+
+#dataset color (can be changed later)
+COLOR	#ff0000
+
+#shapes for each field column; possible choices are
+#1: rectangle 
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#6: check mark
+FIELD_SHAPES	2	2	2	2	2
+FIELD_LABELS	K15864	K07218	K19342	K19340	K02164
+FIELD_COLORS	#e0c0e0	#debede	#debede	#debede	#d6aed6
+LEGEND_TITLE	Denitrification
+LEGEND_SHAPES	2	2	2	2	2
+LEGEND_LABELS	K15864	K07218	K19342	K19340	K02164
+LEGEND_COLORS	#e0c0e0	#debede	#debede	#debede	#d6aed6
+#FIELD_SHAPES	
+
+#field labels
+#FIELD_LABELS	
+
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+
+#define colors for each individual field column (if not defined all symbols will use the main dataset color, defined in COLOR above)
+#FIELD_COLORS	
+
+
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
+
+#always show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+#SHOW_INTERNAL,0
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+MARGIN	20
+HORIZONTAL_GRID	0
+VERTICAL_GRID	0
+#align symbols to the end of each leaf label (individual dataset field will not be aligned to each other)
+#ALIGN_TO_LABELS,1
+
+#symbol height factor; Default symbol height will be slightly less than the available space between leaves, but you can set a multiplication factor here to increase/decrease it (values from 0 to 1 will decrease it, values above 1 will increase it)
+#HEIGHT_FACTOR,1
+
+#increase/decrease the spacing between individual levels, when there is more than one binary level defined 
+#SYMBOL_SPACING,10
+
+#display or hide the text labels above each field column
+#SHOW_LABELS,1
+
+#Example dataset with 4 columns (circle, left triangle, right triangle and rectangle):
+#FIELD_SHAPES,2,4,5,1
+#FIELD_LABELS,f1,f2,f3,f4
+#FIELD_COLORS,#ff0000,#00ff00,#ffff00,#0000ff
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+#node 9606 will have a filled circle, empty left triangle, nothing in the 3rd column and an empty rectangle
+#9606,1,0,-1,0
+
+
+
+A5	1	1	1	1	1
+AA2	1	1	1	1	1
+AA4	1	1	1	1	1
+AA8	1	1	1	1	1
+AA9	1	1	1	1	1
+AB4	1	1	1	1	1
+AB7	1	1	1	1	1
+AC8	1	1	1	1	1
+AD1	1	1	1	1	1
+AD5	1	1	1	1	1
+AF2	1	1	1	1	1
+AH1	1	1	1	1	1
+AH10	1	1	1	1	1
+AH11	1	1	1	1	1
+AH4	1	1	1	1	1
+AH5	1	1	1	1	1
+AH6	1	1	1	1	1
+AH8	1	1	1	1	1
+AH9	1	1	1	1	1
+AM5	1	1	1	1	1
+AN9	1	1	1	1	1
+B11	1	1	1	1	1
+BJ7	1	1	1	1	1
+C10	1	1	1	1	1
+C5	1	1	1	1	1
+C6	1	1	1	1	1
+C9	1	1	1	1	1
+CE6	1	1	1	1	1
+CE7	1	1	1	1	1
+CF1	1	1	1	1	1
+CF3	1	1	1	1	1
+CG1	1	1	1	1	1
+CG2	1	1	1	1	1
+CG9	1	1	1	1	1
+CJ6	1	1	1	1	1
+D10	1	1	1	1	1
+D12	1	1	1	1	1
+D6	1	1	1	1	1
+D7	1	1	1	1	1
+E2	1	1	1	1	1
+E5	1	1	1	1	1
+E6	1	1	1	1	1
+H9	1	1	1	1	1
+I3	1	1	1	1	1
+I5	1	1	1	1	1
+K3	1	1	1	1	1
+K6	1	1	1	1	1
+AF10	1	1	1	1	1
+AG6	1	1	1	1	1
+AL3	1	1	1	1	1
+AP8	1	1	1	1	1
+CL7	1	1	1	1	1
+N2	1	1	1	1	1
+N9	1	1	1	1	1
+P10	1	1	1	1	1
+AA12	1	1	1	1	1
+AB1	1	1	1	1	1
+AC11	1	1	1	1	1
+AJ1	1	1	1	1	1
+AJ9	1	1	1	1	1
+B1	1	1	1	1	1
+B2	1	1	1	1	1
+B4	1	1	0	1	1
+B7	1	1	1	1	1
+D9	1	1	1	1	1
+E12	1	1	1	1	1
+E4	1	1	1	0	1
+E9	1	1	1	1	1
+F6	1	1	1	1	1
+F7	1	1	1	1	1
+BC9	1	1	1	1	1
+AB5	1	1	1	1	1
+F11	1	1	1	1	1
+AB9	1	1	1	1	1
+A2	1	1	1	1	1
+BB4	1	1	1	1	1
+BC2	1	1	1	1	1
+BC8	1	1	1	1	1
+BF8	1	1	1	1	1
+BF9	1	1	1	1	1
+BI10	1	1	1	1	1
+CG3	1	1	1	1	1
+CG8	1	1	1	1	1
+CH4	1	1	1	1	1
+CH5	1	1	1	1	1
+CI5	1	1	1	1	1
+CI8	1	1	1	1	1
+CL3	0	0	0	0	0
+BB7	1	1	1	1	1
+BC3	1	1	1	1	1
+E1	1	1	1	1	1
+BF10	1	1	1	1	1
+BF11	1	1	1	1	1
+CG11	1	1	1	1	1
+BC6	1	1	1	1	1
+AI2	1	1	1	1	1
+AK3	1	1	1	1	1
+AP10	1	1	1	1	1
+AP11	1	1	1	1	1
+AP9	1	1	1	1	1
+BE5	1	1	1	1	1
+BE6	1	1	1	1	1
+BE8	1	1	1	1	1
+BH12	1	1	1	1	1
+I10	1	1	1	1	1
+I11	1	1	1	1	1
+I12	1	1	1	1	1
+I6	1	1	1	1	1
+I7	1	1	1	1	1
+I8	1	1	1	1	1
+I9	1	1	1	1	1
+J1	1	1	1	1	1
+J10	1	1	1	1	1
+J11	1	1	1	1	1
+J12	1	1	1	1	1
+J2	1	1	1	1	1
+J3	1	1	1	1	1
+J4	1	1	1	1	1
+J5	1	1	1	1	1
+J6	1	1	1	1	1
+J7	1	1	1	1	1
+J9	1	1	1	1	1
+K2	1	1	1	1	1
+L12	1	1	1	1	1
+BC1	1	1	1	1	0
+BE9	1	1	1	1	1
+BI11	1	1	1	1	1
+BA11	1	1	1	1	1
+BB9	1	1	1	1	1
+BJ3	1	1	1	1	1
+BJ4	1	1	1	1	1
+BJ5	1	1	1	1	1
+H6	0	0	0	0	0
+G5	0	0	0	0	0
+C11	1	1	1	1	1
+AD2	1	1	1	1	1
+CE9	1	1	1	1	1
+BD11	0	0	0	0	0
+BG1	0	0	0	0	0
+BG4	0	0	0	0	0
+BG7	0	0	0	0	0
+BG10	1	1	1	1	1
+N4	1	1	1	1	1
+P11	1	1	1	1	1
+AA10	1	1	1	1	1
+CF5	1	1	1	1	1
+BB6	0	0	0	0	0
+BC7	0	0	0	0	0
+CF7	0	0	0	0	0
+CL6	0	1	1	1	0
+A4	1	1	1	1	1
+AA1	1	1	1	1	1
+AL12	1	1	1	1	1
+H8	1	1	1	1	1
+AD11	1	1	1	1	1
+BF4	1	1	1	1	1
+BF6	1	1	1	1	1
+BF7	1	1	1	1	1
+AH2	0	0	0	0	0
+AH7	0	0	0	0	0
+H1	0	0	0	0	0
+H2	0	0	0	0	0
+H3	0	0	0	0	0
+H4	0	0	0	0	0
+I1	0	0	0	0	0
+AI1	1	1	1	1	1
+BA10	1	1	1	1	1
+BA12	1	1	1	1	1
+BA8	1	1	1	1	1
+BA9	1	1	1	1	1
+BB1	1	1	1	1	1
+BB10	1	1	1	1	1
+BB5	1	1	1	1	1
+BC12	1	1	1	1	1
+BC4	1	1	1	1	1
+BC5	1	1	1	1	1
+BD1	1	1	1	1	1
+BD2	1	1	1	1	1
+BD3	1	1	1	1	1
+BD4	1	1	1	1	1
+BD5	1	1	1	1	1
+BD6	1	1	1	1	1
+BD7	1	1	1	1	1
+BD8	1	1	1	1	1
+BD9	1	1	1	1	1
+BE10	1	1	1	1	1
+BH1	1	1	1	1	1
+BH2	1	1	1	1	1
+BH3	1	1	1	1	1
+BH4	1	1	1	1	1
+BH5	1	1	1	1	1
+BH6	1	1	1	1	1
+BI7	1	1	1	1	1
+CF11	1	1	1	1	1
+CH9	1	1	1	1	1
+CI9	1	1	1	1	1
+CJ7	1	1	1	1	1
+CJ9	1	1	1	1	1
+AA5	1	1	1	1	1
+AB6	1	1	1	1	1
+AG4	1	1	1	1	1
+AK6	1	1	1	1	1
+AK7	1	1	1	1	1
+BK1	1	1	1	1	1
+F12	0	0	0	0	0
+J8	1	1	1	1	1
+N8	0	0	0	0	0
+AD6	0	0	0	0	0
+AP12	1	1	1	1	1
+BG5	1	1	1	1	1
+C12	0	0	0	0	0
+H7	1	1	1	1	1
+K5	1	1	1	1	1
+AI3	0	0	0	0	0
+C8	0	0	0	0	0
+AL11	0	0	0	0	0
+BG9	0	0	0	0	0
+CJ1	0	0	0	0	0
+A1	1	1	1	1	1
+AE10	1	1	1	1	1
+AM6	1	1	1	1	1
+AN11	1	1	1	1	1
+CG4	1	1	1	1	1
+D1	1	1	1	1	1
+D4	1	1	1	1	1
+D5	1	1	1	1	1
+K7	1	1	1	1	1
+AA3	1	1	1	1	1
+G2	1	1	1	1	1
+AD12	1	1	1	1	1
+AE1	1	1	1	1	1
+AE4	1	1	1	1	1
+AE5	1	1	1	1	1
+AE6	1	1	1	1	1
+AE9	1	1	1	1	1
+AF11	1	1	1	1	1
+AF4	1	1	1	1	0
+AF5	1	1	1	1	1
+AF6	1	1	1	1	1
+AF7	1	1	1	1	1
+AF9	1	1	1	1	1
+AK10	1	1	1	1	1
+AK11	1	1	1	1	1
+AL4	1	1	1	1	1
+AL7	1	1	1	1	1
+BH7	1	1	1	1	1
+BH8	1	1	1	1	1
+BH9	1	1	1	1	1
+CH2	1	1	1	1	1
+CI3	1	1	1	1	1
+CI6	1	1	1	1	1
+K12	1	1	1	1	1
+L11	1	1	1	1	1
+L6	1	1	1	1	1
+L8	1	1	1	1	1
+M11	1	1	1	1	1
+M8	1	1	1	1	1
+N1	1	1	1	1	1
+N12	1	1	1	1	1
+N3	1	1	1	1	1
+N5	1	1	1	1	1
+N7	1	1	1	1	1
+O10	1	1	1	1	1
+O12	1	1	1	1	1
+O2	1	1	1	1	1
+O3	1	1	1	1	1
+O4	1	1	1	1	1
+O5	1	1	1	1	1
+O6	1	1	1	1	1
+O9	1	1	1	1	1
+P12	1	1	1	1	1
+P2	1	1	1	1	1
+P3	1	1	1	1	1
+P5	1	1	1	1	1
+P7	1	1	1	1	1
+P8	1	1	1	1	1
+P9	1	1	1	1	1
+BI12	1	1	1	1	1
+BE1	1	1	1	1	1
+CH10	1	1	1	1	1
+AB8	1	1	1	1	1
+N11	1	1	1	1	1
+BG6	1	1	1	1	1
+AK4	1	1	1	1	1
+F5	1	1	1	1	1
+AB10	1	1	1	1	1
+BF12	1	1	1	1	1
+CE8	1	1	1	1	1
+CE10	1	1	1	1	1
+AL1	1	1	1	1	1
+K11	1	1	1	1	1
+D3	0	0	0	0	0
+AN12	0	0	0	0	0
+AN8	0	0	0	0	0
+AO1	0	0	0	0	0
+AO10	0	0	0	0	0
+AO12	0	0	0	0	0
+AO2	0	0	0	0	0
+AO3	0	0	0	0	0
+AO4	0	0	0	0	0
+AO7	0	0	0	0	0
+AO9	0	0	0	0	0
+AP1	0	0	0	0	0
+AP3	0	0	0	0	0
+AP6	0	0	0	0	0
+AL8	1	1	1	1	1
+AM11	1	1	1	1	1
+AM12	1	1	1	1	1
+AM7	1	1	1	1	1
+AN2	1	1	1	1	1
+AN3	1	1	1	1	1
+AN4	1	1	1	1	1
+AN5	1	1	1	1	1
+AJ12	1	1	1	1	1
+AK1	1	1	1	1	1
+BG2	0	0	0	0	0
+BG3	0	0	0	0	0
+AO11	1	1	1	1	0
+AO5	1	1	1	1	0
+AO6	1	1	1	1	0
+AP2	1	1	1	1	0
+AP4	1	1	1	1	0
+AP5	1	1	1	1	0
+CJ2	1	1	1	1	0
+G1	1	1	1	1	1
+G10	1	1	1	1	1
+G11	1	1	1	1	1
+G3	1	1	1	1	1
+G4	1	1	1	1	1
+G6	1	1	1	1	1
+G7	1	1	1	1	1
+G9	1	1	1	1	1
+B10	0	0	0	0	0
+B8	0	0	0	0	0
+B9	0	0	0	0	0
+BG11	0	0	0	0	0
+BG12	0	0	0	0	0
+BG8	0	0	0	0	0
+CJ10	1	1	1	1	1
+CJ11	1	1	1	1	1
+CJ3	1	1	1	1	1
+CJ4	1	1	1	1	1
+CJ5	1	1	1	1	1
+CJ8	1	1	1	1	1
+CL1	1	1	1	1	1
+CF2	1	1	1	1	1
+AA7	1	1	1	1	1
+AB11	1	1	1	1	1
+AE12	1	1	1	1	1
+AN6	1	1	1	1	1
+AN7	1	1	1	1	1
+AP7	1	1	1	1	1
+B12	1	1	1	1	1
+C1	1	1	1	1	1
+CL5	1	1	1	1	1
+CL8	1	1	1	1	1
+O11	1	1	1	1	1
+BA2	1	1	1	1	0
+C4	1	1	1	1	0
+AC10	1	1	1	1	1
+AC6	1	1	1	1	1
+E8	1	1	1	1	1
+CJ12	1	1	1	1	1
+CK2	1	1	1	1	1
+AB12	0	0	0	0	0
+AF12	0	0	0	0	0
+AG1	0	0	0	0	0
+D2	0	0	0	0	0
+AM9	1	1	1	1	1
+AD9	1	1	1	1	1
+AE3	1	1	1	1	1
+AF1	1	1	1	1	1
+AF3	1	1	1	1	1
+AG10	1	1	1	1	1
+AG7	1	1	1	1	1
+AL2	1	1	1	1	1
+M2	1	1	1	1	1
+M6	1	1	1	1	1
+N10	1	1	1	1	1
+CH8	1	1	1	1	1
+BJ6	1	1	1	1	1
+CH11	1	1	1	1	0
+AM1	1	1	1	1	1
+AM8	0	0	0	0	0
+CK3	0	0	0	0	0
+AM4	1	1	1	1	0
+AM2	1	1	1	1	1
+CI1	1	1	1	1	1
+AF8	1	1	1	1	1
+CE12	0	0	0	0	0
+AG2	1	1	1	1	1
+AH3	1	1	1	1	1
+BB3	1	1	1	1	1
+BC10	1	1	1	1	1
+BE3	1	1	1	1	1
+C2	1	1	1	1	1
+CF4	1	1	1	1	1
+CH12	1	1	1	1	1
+H10	1	1	1	1	1
+H5	1	1	1	1	1
+I4	1	1	1	1	1
+M9	1	1	1	1	1
+P1	1	1	1	1	1
+AH12	0	0	0	0	0
+CK1	0	0	0	0	0
+CH6	0	0	0	0	0
+G12	1	1	1	1	1
+CF8	1	1	1	1	1
+AA6	1	1	1	1	1
+GNM3479	1	1	1	1	1
+GNM3538	1	1	1	1	1
+GNM3559	1	1	1	1	1
+GNM3892	1	1	1	1	1
+GNM4290	1	1	1	1	1
+GNM4649	1	1	1	1	1
+GNM4677	1	1	1	1	1
+GNM4698	1	1	1	1	1
+GNM4727	0	0	0	0	0
+GNM6322	1	1	1	1	1

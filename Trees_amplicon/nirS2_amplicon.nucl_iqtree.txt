@@ -1,0 +1,870 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    cl001 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree -nt 15 -m MFP -redo -mset GTR,HKY85,K80 -mrate E,I,G,I+G -mfreq FU -wbtl -bb 1000 -s /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_trimmed.nucl.aln -pre /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree
+Seed:    420084 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Feb 19 18:22:51 2025
+Kernel:  AVX+FMA - 15 threads (40 CPU cores detected)
+
+Reading alignment file /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_trimmed.nucl.aln ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 380 sequences with 337 columns, 152 distinct patterns
+143 parsimony-informative, 5 singleton sites, 189 constant sites
+               Gap/Ambiguity  Composition  p-value
+   1  A5               0.00%    passed     93.71%
+   2  AA2              0.00%    passed     94.44%
+   3  AA4              0.00%    passed     94.44%
+   4  AA8              0.00%    passed     99.06%
+   5  AA9              0.00%    passed     93.71%
+   6  AB4              0.00%    passed     93.71%
+   7  AB7              0.00%    passed     99.06%
+   8  AC8              0.00%    passed     99.06%
+   9  AD1              0.00%    passed     99.34%
+  10  AD5              0.00%    passed     97.82%
+  11  AF2              0.00%    passed     99.34%
+  12  AH1              0.00%    passed     99.06%
+  13  AH10             0.00%    passed     99.06%
+  14  AH11             0.00%    passed     99.06%
+  15  AH4              0.00%    passed     99.06%
+  16  AH5              0.00%    passed     99.06%
+  17  AH6              0.00%    passed     99.06%
+  18  AH8              0.00%    passed     99.06%
+  19  AH9              0.00%    passed     99.06%
+  20  AM5              0.00%    passed     94.44%
+  21  AN9              0.00%    passed     97.82%
+  22  B11              0.00%    passed     97.82%
+  23  BJ7              0.00%    passed     97.82%
+  24  C10              0.00%    passed     97.82%
+  25  C5               0.00%    passed     94.44%
+  26  C6               0.00%    passed     94.44%
+  27  C9               0.00%    passed     99.06%
+  28  CE6              0.00%    passed     99.80%
+  29  CE7              0.00%    passed     99.06%
+  30  CF1              0.00%    passed     97.82%
+  31  CF3              0.00%    passed     97.82%
+  32  CG1              0.00%    passed     94.44%
+  33  CG2              0.00%    passed     97.82%
+  34  CG9              0.00%    passed     94.44%
+  35  CJ6              0.00%    passed     94.44%
+  36  D10              0.00%    passed     99.34%
+  37  D12              0.00%    passed     99.34%
+  38  D6               0.00%    passed     99.34%
+  39  D7               0.00%    passed     94.44%
+  40  E2               0.00%    passed     99.34%
+  41  E5               0.00%    passed     99.34%
+  42  E6               0.00%    passed     99.34%
+  43  H9               0.00%    passed     99.06%
+  44  I3               0.00%    passed     94.44%
+  45  I5               0.00%    passed     99.06%
+  46  K3               0.00%    passed     94.44%
+  47  K6               0.00%    passed     94.44%
+  48  AF10             0.00%    passed     98.87%
+  49  AG6              0.00%    passed     99.26%
+  50  AL3              0.00%    passed     99.26%
+  51  AP8              0.00%    passed     98.87%
+  52  CL7              0.00%    passed     98.87%
+  53  N2               0.00%    passed     98.87%
+  54  N9               0.00%    passed     99.26%
+  55  P10              0.00%    passed     98.87%
+  56  AA12             0.00%    passed     68.19%
+  57  AB1              0.00%    passed     68.19%
+  58  AC11             0.00%    passed     68.19%
+  59  AJ1              0.00%    passed     68.19%
+  60  AJ9              0.00%    passed     68.19%
+  61  B1               0.00%    passed     68.19%
+  62  B2               0.00%    passed     68.19%
+  63  B4               0.00%    passed     68.19%
+  64  B7               0.00%    passed     68.19%
+  65  E12              0.00%    passed     68.19%
+  66  E9               0.00%    passed     68.19%
+  67  F6               0.00%    passed     68.19%
+  68  F7               0.00%    passed     68.19%
+  69  BC9              0.00%    passed     98.98%
+  70  AB5              0.00%    passed     78.81%
+  71  F11              0.00%    passed     87.39%
+  72  AB9              0.00%    passed     93.89%
+  73  A2               0.00%    passed     71.17%
+  74  BB4              0.00%    passed     80.70%
+  75  BC2              0.00%    passed     57.63%
+  76  BC8              0.00%    passed     80.70%
+  77  BF8              0.00%    passed     73.80%
+  78  BF9              0.00%    passed     73.80%
+  79  BI10             0.00%    passed     80.70%
+  80  CG3              0.00%    passed     57.63%
+  81  CG8              0.00%    passed     92.01%
+  82  CH4              0.00%    passed     80.70%
+  83  CH5              0.00%    passed     83.93%
+  84  CI5              0.00%    passed     57.63%
+  85  CI8              0.00%    passed     84.01%
+  86  BB7              0.00%    passed     93.77%
+  87  BC3              0.00%    passed     84.27%
+  88  E1               0.00%    passed     72.41%
+  89  BF10             0.00%    passed     95.74%
+  90  BF11             0.00%    passed     95.74%
+  91  CG11             0.00%    passed     93.89%
+  92  BC6              0.00%    passed     68.16%
+  93  AI2              0.00%    passed     85.02%
+  94  AK3              0.00%    passed     78.81%
+  95  AP10             0.00%    passed     78.81%
+  96  AP11             0.00%    passed     78.81%
+  97  AP9              0.00%    passed     78.81%
+  98  BE5              0.00%    passed     78.81%
+  99  BE6              0.00%    passed     78.81%
+ 100  BE8              0.00%    passed     78.81%
+ 101  BH12             0.00%    passed     78.81%
+ 102  I10              0.00%    passed     78.81%
+ 103  I11              0.00%    passed     78.81%
+ 104  I12              0.00%    passed     78.81%
+ 105  I6               0.00%    passed     78.81%
+ 106  I7               0.00%    passed     78.81%
+ 107  I8               0.00%    passed     78.81%
+ 108  I9               0.00%    passed     78.81%
+ 109  J1               0.00%    passed     78.81%
+ 110  J10              0.00%    passed     78.81%
+ 111  J11              0.00%    passed     78.81%
+ 112  J12              0.00%    passed     78.81%
+ 113  J2               0.00%    passed     78.81%
+ 114  J3               0.00%    passed     78.81%
+ 115  J4               0.00%    passed     78.81%
+ 116  J5               0.00%    passed     78.81%
+ 117  J6               0.00%    passed     78.81%
+ 118  J7               0.00%    passed     78.81%
+ 119  J9               0.00%    passed     78.81%
+ 120  K2               0.00%    passed     78.81%
+ 121  L12              0.00%    passed     78.97%
+ 122  BC1              0.00%    passed     99.04%
+ 123  BE9              0.00%    passed     98.75%
+ 124  BI11             0.00%    passed     95.58%
+ 125  BA11             0.00%    passed     98.98%
+ 126  BB9              0.00%    passed     70.18%
+ 127  BJ4              0.00%    passed     70.18%
+ 128  BJ5              0.00%    passed     61.81%
+ 129  C11              0.00%    passed     93.20%
+ 130  AD2              0.00%    passed     98.98%
+ 131  CE9              0.00%    passed     99.40%
+ 132  BG10             0.00%    passed     55.87%
+ 133  N4               0.00%    passed     74.35%
+ 134  P11              0.00%    passed     74.35%
+ 135  AA10             0.00%    passed     81.88%
+ 136  CF5              0.00%    passed     81.88%
+ 137  A4               0.00%    passed     89.30%
+ 138  AA1              0.00%    passed     89.30%
+ 139  AL12             0.00%    passed     89.30%
+ 140  H8               0.00%    passed     92.40%
+ 141  AD11             0.00%    passed     96.15%
+ 142  BF4              0.00%    passed     96.15%
+ 143  BF6              0.00%    passed     97.99%
+ 144  BF7              0.00%    passed     96.15%
+ 145  AI1              0.00%    passed     90.76%
+ 146  BA10             0.00%    passed     94.55%
+ 147  BA12             0.00%    passed     75.12%
+ 148  BA8              0.00%    passed     90.76%
+ 149  BA9              0.00%    passed     90.76%
+ 150  BB1              0.00%    passed     72.88%
+ 151  BB10             0.00%    passed     94.55%
+ 152  BB5              0.00%    passed     70.80%
+ 153  BC12             0.00%    passed     90.76%
+ 154  BC4              0.00%    passed     90.76%
+ 155  BC5              0.00%    passed     90.76%
+ 156  BD1              0.00%    passed     90.76%
+ 157  BD2              0.00%    passed     90.76%
+ 158  BD3              0.00%    passed     90.76%
+ 159  BD4              0.00%    passed     90.76%
+ 160  BD5              0.00%    passed     90.76%
+ 161  BD6              0.00%    passed     90.76%
+ 162  BD7              0.00%    passed     90.76%
+ 163  BD8              0.00%    passed     90.76%
+ 164  BD9              0.00%    passed     90.76%
+ 165  BE10             0.00%    passed     85.37%
+ 166  BH1              0.00%    passed     82.05%
+ 167  BH2              0.00%    passed     82.05%
+ 168  BH3              0.00%    passed     82.05%
+ 169  BH4              0.00%    passed     82.05%
+ 170  BH5              0.00%    passed     82.05%
+ 171  BH6              0.00%    passed     82.05%
+ 172  BI7              0.00%    passed     87.59%
+ 173  CF11             0.00%    passed     87.59%
+ 174  CH9              0.00%    passed     90.76%
+ 175  CI9              0.00%    passed     90.76%
+ 176  CJ7              0.00%    passed     75.12%
+ 177  CJ9              0.00%    passed     75.12%
+ 178  AA5              0.00%    passed     87.61%
+ 179  AB6              0.00%    passed     92.98%
+ 180  AG4              0.00%    passed     96.56%
+ 181  AK6              0.00%    passed     96.56%
+ 182  AK7              0.00%    passed     96.56%
+ 183  BK1              0.00%    passed     96.56%
+ 184  J8               0.00%    passed     96.56%
+ 185  AP12             0.00%    passed     63.69%
+ 186  BG5              0.00%    passed     55.42%
+ 187  H7               0.00%    passed     55.42%
+ 188  K5               0.00%    passed     63.69%
+ 189  A1               0.00%    passed     79.58%
+ 190  AE10             0.00%    passed     79.58%
+ 191  AM6              0.00%    passed     79.58%
+ 192  AN11             0.00%    passed     79.58%
+ 193  CG4              0.00%    passed     79.58%
+ 194  D1               0.00%    passed     76.82%
+ 195  D4               0.00%    passed     79.58%
+ 196  D5               0.00%    passed     76.82%
+ 197  K7               0.00%    passed     79.58%
+ 198  AA3              0.00%    passed     99.22%
+ 199  G2               0.00%    passed     99.86%
+ 200  AD12             0.00%    passed     77.05%
+ 201  AE1              0.00%    passed     77.05%
+ 202  AE4              0.00%    passed     78.56%
+ 203  AE5              0.00%    passed     77.05%
+ 204  AE6              0.00%    passed     77.05%
+ 205  AE9              0.00%    passed     77.05%
+ 206  AF11             0.00%    passed     77.05%
+ 207  AF4              0.00%    passed     85.02%
+ 208  AF5              0.00%    passed     85.02%
+ 209  AF6              0.00%    passed     95.74%
+ 210  AF7              0.00%    passed     87.49%
+ 211  AF9              0.00%    passed     95.74%
+ 212  AK10             0.00%    passed     95.74%
+ 213  AK11             0.00%    passed     82.81%
+ 214  AL4              0.00%    passed     77.05%
+ 215  AL7              0.00%    passed     77.05%
+ 216  BH7              0.00%    passed     95.74%
+ 217  BH8              0.00%    passed     95.74%
+ 218  BH9              0.00%    passed     77.05%
+ 219  CH2              0.00%    passed     86.61%
+ 220  CI3              0.00%    passed     77.05%
+ 221  CI6              0.00%    passed     77.05%
+ 222  K12              0.00%    passed     77.05%
+ 223  L11              0.00%    passed     91.40%
+ 224  L6               0.00%    passed     95.74%
+ 225  L8               0.00%    passed     77.05%
+ 226  M11              0.00%    passed     78.56%
+ 227  M8               0.00%    passed     77.05%
+ 228  N1               0.00%    passed     77.05%
+ 229  N12              0.00%    passed     85.02%
+ 230  N3               0.00%    passed     77.05%
+ 231  N5               0.00%    passed     77.05%
+ 232  N7               0.00%    passed     85.02%
+ 233  O10              0.00%    passed     77.05%
+ 234  O12              0.00%    passed     77.05%
+ 235  O2               0.00%    passed     95.74%
+ 236  O3               0.00%    passed     95.74%
+ 237  O4               0.00%    passed     85.02%
+ 238  O5               0.00%    passed     86.91%
+ 239  O6               0.00%    passed     77.05%
+ 240  O9               0.00%    passed     77.05%
+ 241  P12              0.00%    passed     77.05%
+ 242  P2               0.00%    passed     77.05%
+ 243  P3               0.00%    passed     95.74%
+ 244  P5               0.00%    passed     77.05%
+ 245  P7               0.00%    passed     77.05%
+ 246  P8               0.00%    passed     86.91%
+ 247  P9               0.00%    passed     77.05%
+ 248  BI12             0.00%    passed     91.43%
+ 249  BE1              0.00%    passed     93.39%
+ 250  CH10             0.00%    passed     92.70%
+ 251  AB8              0.00%    passed     76.82%
+ 252  N11              0.00%    passed     76.82%
+ 253  BG6              0.00%    passed     79.23%
+ 254  AK4              0.00%    passed     61.52%
+ 255  F5               0.00%    passed     63.44%
+ 256  AB10             0.00%    passed     85.46%
+ 257  BF12             0.00%    passed     92.87%
+ 258  CE8              0.00%    passed     92.87%
+ 259  CE10             0.00%    passed     86.26%
+ 260  AL1              0.00%    passed     96.86%
+ 261  K11              0.00%    passed     97.14%
+ 262  AL8              0.00%    passed     92.56%
+ 263  AM11             0.00%    passed     92.56%
+ 264  AM12             0.00%    passed     92.56%
+ 265  AM7              0.00%    passed     92.56%
+ 266  AN2              0.00%    passed     92.56%
+ 267  AN3              0.00%    passed     92.56%
+ 268  AN4              0.00%    passed     92.56%
+ 269  AN5              0.00%    passed     92.56%
+ 270  AJ12             0.00%    passed     90.14%
+ 271  AK1              0.00%    passed     90.14%
+ 272  AO11             0.00%    passed     98.47%
+ 273  AO5              0.00%    passed     98.47%
+ 274  AO6              0.00%    passed     98.47%
+ 275  AP2              0.00%    passed     98.47%
+ 276  AP4              0.00%    passed     98.47%
+ 277  AP5              0.00%    passed     98.47%
+ 278  CJ2              0.00%    passed     98.47%
+ 279  G1               0.00%    passed     96.91%
+ 280  G10              0.00%    passed     91.06%
+ 281  G11              0.00%    passed     96.91%
+ 282  G3               0.00%    passed     96.91%
+ 283  G4               0.00%    passed     96.91%
+ 284  G6               0.00%    passed     96.91%
+ 285  G7               0.00%    passed     96.91%
+ 286  G9               0.00%    passed     91.06%
+ 287  CJ10             0.00%    passed     77.64%
+ 288  CJ11             0.00%    passed     77.64%
+ 289  CJ3              0.00%    passed     77.64%
+ 290  CJ4              0.00%    passed     77.64%
+ 291  CJ5              0.00%    passed     77.64%
+ 292  CJ8              0.00%    passed     77.64%
+ 293  CL1              0.00%    passed     77.64%
+ 294  CF2              0.00%    passed     57.63%
+ 295  AA7              0.00%    passed     98.96%
+ 296  AB11             0.00%    passed     98.96%
+ 297  AE12             0.00%    passed     98.96%
+ 298  AN6              0.00%    passed     96.94%
+ 299  AN7              0.00%    passed     96.94%
+ 300  AP7              0.00%    passed     96.86%
+ 301  B12              0.00%    passed     98.96%
+ 302  C1               0.00%    passed     98.96%
+ 303  CL5              0.00%    passed     99.77%
+ 304  CL8              0.00%    passed     98.96%
+ 305  O11              0.00%    passed     96.86%
+ 306  BA2              0.00%    passed     83.93%
+ 307  C4               0.00%    passed     83.93%
+ 308  AC10             0.00%    passed     92.38%
+ 309  AC6              0.00%    passed     92.38%
+ 310  E8               0.00%    passed     92.38%
+ 311  CJ12             0.00%    passed     98.85%
+ 312  CK2              0.00%    passed     98.85%
+ 313  AM9              0.00%    passed     88.95%
+ 314  AD9              0.00%    passed     91.62%
+ 315  AE3              0.00%    passed     87.59%
+ 316  AF1              0.00%    passed     91.62%
+ 317  AF3              0.00%    passed     91.62%
+ 318  AG10             0.00%    passed     91.62%
+ 319  AG7              0.00%    passed     87.59%
+ 320  AL2              0.00%    passed     85.02%
+ 321  M2               0.00%    passed     87.59%
+ 322  M6               0.00%    passed     87.59%
+ 323  N10              0.00%    passed     91.62%
+ 324  CH8              0.00%    passed     81.55%
+ 325  BJ6              0.00%    passed     84.82%
+ 326  CH11             0.00%    passed     72.05%
+ 327  AM1              0.00%    passed     71.11%
+ 328  AM4              0.00%    passed     84.58%
+ 329  AM2              0.00%    passed     82.38%
+ 330  CI1              0.00%    passed     93.94%
+ 331  AF8              0.00%    passed     89.56%
+ 332  AG2              0.00%    passed     66.72%
+ 333  AH3              0.00%    passed     66.72%
+ 334  BB3              0.00%    passed     90.00%
+ 335  BC10             0.00%    passed     90.00%
+ 336  BE3              0.00%    passed     66.72%
+ 337  C2               0.00%    passed     90.00%
+ 338  CF4              0.00%    passed     66.72%
+ 339  CH12             0.00%    passed     66.72%
+ 340  H10              0.00%    passed     66.72%
+ 341  H5               0.00%    passed     66.72%
+ 342  I4               0.00%    passed     66.72%
+ 343  M9               0.00%    passed     66.72%
+ 344  P1               0.00%    passed     66.72%
+ 345  G12              0.00%    passed     93.82%
+ 346  CF8              0.00%    passed     97.57%
+ 347  AA6              0.00%    passed     79.55%
+ 348  GNM000161775     0.00%    passed     66.76%
+ 349  GNM000192475     0.00%    passed     96.86%
+ 350  GNM000743705     0.00%    passed     88.27%
+ 351  GNM000813985     0.00%    passed     98.85%
+ 352  GNM001238295     0.00%    passed     77.29%
+ 353  GNM001458095     0.00%    passed     88.79%
+ 354  GNM001458195     0.00%    passed     77.44%
+ 355  GNM001458295     0.00%    passed     94.53%
+ 356  GNM001507595     0.00%    passed     37.91%
+ 357  GNM003318255     0.00%    passed     87.58%
+ 358  GNM003443535     0.00%    passed     99.15%
+ 359  GNM003664205     0.00%    passed     96.86%
+ 360  GNM2606217183    0.00%    passed     87.48%
+ 361  GNM900106805     0.00%    passed     82.28%
+ 362  GNM900129345     0.00%    passed     80.31%
+ 363  GNM900141625     0.00%    passed     66.76%
+ 364  GNM900143525     0.00%    passed     80.46%
+ 365  GNM900172215     0.00%    passed     93.88%
+ 366  GNM900182615     0.00%    passed     76.63%
+ 367  GNM900185035     0.00%    passed     56.51%
+ 368  GNM900312795     0.00%    passed     87.48%
+ 369  GNM900313035     0.00%    passed     68.07%
+ 370  GNM3479          0.00%    passed     94.44%
+ 371  GNM3486          0.00%    passed     68.19%
+ 372  GNM3538          0.00%    passed     99.45%
+ 373  GNM3559          0.00%    passed     94.89%
+ 374  GNM3892          0.00%    passed     99.45%
+ 375  GNM4290          0.00%    passed     70.18%
+ 376  GNM4649          0.00%    passed     94.89%
+ 377  GNM4677          0.00%    passed     99.10%
+ 378  GNM4698          0.00%    passed     94.89%
+ 379  GNM6322          0.00%    passed     94.53%
+ 380  BJ3              0.00%    passed     70.18%
+****  TOTAL            0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: AA9 is identical to A5 but kept for subsequent analysis
+NOTE: AA4 is identical to AA2 but kept for subsequent analysis
+NOTE: AB7 is identical to AA8 but kept for subsequent analysis
+NOTE: AF2 is identical to AD1 but kept for subsequent analysis
+NOTE: AN9 is identical to AD5 but kept for subsequent analysis
+NOTE: BJ7 is identical to B11 but kept for subsequent analysis
+NOTE: AP8 is identical to AF10 but kept for subsequent analysis
+NOTE: AL3 is identical to AG6 but kept for subsequent analysis
+NOTE: AB1 is identical to AA12 but kept for subsequent analysis
+NOTE: BA11 is identical to BC9 but kept for subsequent analysis
+NOTE: BC8 is identical to BB4 but kept for subsequent analysis
+NOTE: CG3 is identical to BC2 but kept for subsequent analysis
+NOTE: BF9 is identical to BF8 but kept for subsequent analysis
+NOTE: BF11 is identical to BF10 but kept for subsequent analysis
+NOTE: AF4 is identical to AI2 but kept for subsequent analysis
+NOTE: AP10 is identical to AK3 but kept for subsequent analysis
+NOTE: BJ4 is identical to BB9 but kept for subsequent analysis
+NOTE: P11 is identical to N4 but kept for subsequent analysis
+NOTE: CF5 is identical to AA10 but kept for subsequent analysis
+NOTE: AA1 is identical to A4 but kept for subsequent analysis
+NOTE: BF4 is identical to AD11 but kept for subsequent analysis
+NOTE: BA8 is identical to AI1 but kept for subsequent analysis
+NOTE: BB10 is identical to BA10 but kept for subsequent analysis
+NOTE: CJ7 is identical to BA12 but kept for subsequent analysis
+NOTE: BH2 is identical to BH1 but kept for subsequent analysis
+NOTE: CF11 is identical to BI7 but kept for subsequent analysis
+NOTE: AK6 is identical to AG4 but kept for subsequent analysis
+NOTE: K5 is identical to AP12 but kept for subsequent analysis
+NOTE: AE10 is identical to A1 but kept for subsequent analysis
+NOTE: D5 is identical to D1 but kept for subsequent analysis
+NOTE: AE1 is identical to AD12 but kept for subsequent analysis
+NOTE: M11 is identical to AE4 but kept for subsequent analysis
+NOTE: AF9 is identical to AF6 but kept for subsequent analysis
+NOTE: P8 is identical to O5 but kept for subsequent analysis
+NOTE: CE8 is identical to BF12 but kept for subsequent analysis
+NOTE: AM11 is identical to AL8 but kept for subsequent analysis
+NOTE: AK1 is identical to AJ12 but kept for subsequent analysis
+NOTE: AO5 is identical to AO11 but kept for subsequent analysis
+NOTE: G11 is identical to G1 but kept for subsequent analysis
+NOTE: G9 is identical to G10 but kept for subsequent analysis
+NOTE: CJ11 is identical to CJ10 but kept for subsequent analysis
+NOTE: AB11 is identical to AA7 but kept for subsequent analysis
+NOTE: AN7 is identical to AN6 but kept for subsequent analysis
+NOTE: O11 is identical to AP7 but kept for subsequent analysis
+NOTE: C4 is identical to BA2 but kept for subsequent analysis
+NOTE: AC6 is identical to AC10 but kept for subsequent analysis
+NOTE: CK2 is identical to CJ12 but kept for subsequent analysis
+NOTE: AF1 is identical to AD9 but kept for subsequent analysis
+NOTE: M2 is identical to AG7 but kept for subsequent analysis
+NOTE: AH3 is identical to AG2 but kept for subsequent analysis
+NOTE: BC10 is identical to BB3 but kept for subsequent analysis
+NOTE: GNM900141625 is identical to GNM000161775 but kept for subsequent analysis
+NOTE: GNM003664205 is identical to GNM000192475 but kept for subsequent analysis
+NOTE: GNM900312795 is identical to GNM2606217183 but kept for subsequent analysis
+NOTE: GNM3892 is identical to GNM3538 but kept for subsequent analysis
+NOTE: GNM4649 is identical to GNM3559 but kept for subsequent analysis
+NOTE: 187 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: AB4 (identical to A5) is ignored but added at the end
+NOTE: AM5 (identical to AA2) is ignored but added at the end
+NOTE: C5 (identical to AA2) is ignored but added at the end
+NOTE: C6 (identical to AA2) is ignored but added at the end
+NOTE: CG1 (identical to AA2) is ignored but added at the end
+NOTE: CG9 (identical to AA2) is ignored but added at the end
+NOTE: CJ6 (identical to AA2) is ignored but added at the end
+NOTE: D7 (identical to AA2) is ignored but added at the end
+NOTE: I3 (identical to AA2) is ignored but added at the end
+NOTE: K3 (identical to AA2) is ignored but added at the end
+NOTE: K6 (identical to AA2) is ignored but added at the end
+NOTE: GNM3479 (identical to AA2) is ignored but added at the end
+NOTE: AC8 (identical to AA8) is ignored but added at the end
+NOTE: AH1 (identical to AA8) is ignored but added at the end
+NOTE: AH10 (identical to AA8) is ignored but added at the end
+NOTE: AH11 (identical to AA8) is ignored but added at the end
+NOTE: AH4 (identical to AA8) is ignored but added at the end
+NOTE: AH5 (identical to AA8) is ignored but added at the end
+NOTE: AH6 (identical to AA8) is ignored but added at the end
+NOTE: AH8 (identical to AA8) is ignored but added at the end
+NOTE: AH9 (identical to AA8) is ignored but added at the end
+NOTE: C9 (identical to AA8) is ignored but added at the end
+NOTE: CE7 (identical to AA8) is ignored but added at the end
+NOTE: H9 (identical to AA8) is ignored but added at the end
+NOTE: I5 (identical to AA8) is ignored but added at the end
+NOTE: D10 (identical to AD1) is ignored but added at the end
+NOTE: D12 (identical to AD1) is ignored but added at the end
+NOTE: E2 (identical to AD1) is ignored but added at the end
+NOTE: E5 (identical to AD1) is ignored but added at the end
+NOTE: E6 (identical to AD1) is ignored but added at the end
+NOTE: C10 (identical to B11) is ignored but added at the end
+NOTE: CF1 (identical to B11) is ignored but added at the end
+NOTE: CF3 (identical to B11) is ignored but added at the end
+NOTE: CG2 (identical to B11) is ignored but added at the end
+NOTE: CL7 (identical to AF10) is ignored but added at the end
+NOTE: N2 (identical to AF10) is ignored but added at the end
+NOTE: P10 (identical to AF10) is ignored but added at the end
+NOTE: N9 (identical to AG6) is ignored but added at the end
+NOTE: AC11 (identical to AA12) is ignored but added at the end
+NOTE: AJ1 (identical to AA12) is ignored but added at the end
+NOTE: AJ9 (identical to AA12) is ignored but added at the end
+NOTE: B1 (identical to AA12) is ignored but added at the end
+NOTE: B2 (identical to AA12) is ignored but added at the end
+NOTE: B4 (identical to AA12) is ignored but added at the end
+NOTE: B7 (identical to AA12) is ignored but added at the end
+NOTE: E12 (identical to AA12) is ignored but added at the end
+NOTE: E9 (identical to AA12) is ignored but added at the end
+NOTE: F6 (identical to AA12) is ignored but added at the end
+NOTE: F7 (identical to AA12) is ignored but added at the end
+NOTE: GNM3486 (identical to AA12) is ignored but added at the end
+NOTE: BI10 (identical to BB4) is ignored but added at the end
+NOTE: CH4 (identical to BB4) is ignored but added at the end
+NOTE: CI5 (identical to BC2) is ignored but added at the end
+NOTE: AF5 (identical to AI2) is ignored but added at the end
+NOTE: N12 (identical to AI2) is ignored but added at the end
+NOTE: N7 (identical to AI2) is ignored but added at the end
+NOTE: O4 (identical to AI2) is ignored but added at the end
+NOTE: AL2 (identical to AI2) is ignored but added at the end
+NOTE: AP11 (identical to AK3) is ignored but added at the end
+NOTE: AP9 (identical to AK3) is ignored but added at the end
+NOTE: BE5 (identical to AK3) is ignored but added at the end
+NOTE: BE6 (identical to AK3) is ignored but added at the end
+NOTE: BE8 (identical to AK3) is ignored but added at the end
+NOTE: BH12 (identical to AK3) is ignored but added at the end
+NOTE: I10 (identical to AK3) is ignored but added at the end
+NOTE: I11 (identical to AK3) is ignored but added at the end
+NOTE: I12 (identical to AK3) is ignored but added at the end
+NOTE: I6 (identical to AK3) is ignored but added at the end
+NOTE: I7 (identical to AK3) is ignored but added at the end
+NOTE: I8 (identical to AK3) is ignored but added at the end
+NOTE: I9 (identical to AK3) is ignored but added at the end
+NOTE: J1 (identical to AK3) is ignored but added at the end
+NOTE: J10 (identical to AK3) is ignored but added at the end
+NOTE: J11 (identical to AK3) is ignored but added at the end
+NOTE: J12 (identical to AK3) is ignored but added at the end
+NOTE: J2 (identical to AK3) is ignored but added at the end
+NOTE: J3 (identical to AK3) is ignored but added at the end
+NOTE: J4 (identical to AK3) is ignored but added at the end
+NOTE: J5 (identical to AK3) is ignored but added at the end
+NOTE: J6 (identical to AK3) is ignored but added at the end
+NOTE: J7 (identical to AK3) is ignored but added at the end
+NOTE: J9 (identical to AK3) is ignored but added at the end
+NOTE: K2 (identical to AK3) is ignored but added at the end
+NOTE: GNM4290 (identical to BB9) is ignored but added at the end
+NOTE: BJ3 (identical to BB9) is ignored but added at the end
+NOTE: AL12 (identical to A4) is ignored but added at the end
+NOTE: BF7 (identical to AD11) is ignored but added at the end
+NOTE: BA9 (identical to AI1) is ignored but added at the end
+NOTE: BC12 (identical to AI1) is ignored but added at the end
+NOTE: BC4 (identical to AI1) is ignored but added at the end
+NOTE: BC5 (identical to AI1) is ignored but added at the end
+NOTE: BD1 (identical to AI1) is ignored but added at the end
+NOTE: BD2 (identical to AI1) is ignored but added at the end
+NOTE: BD3 (identical to AI1) is ignored but added at the end
+NOTE: BD4 (identical to AI1) is ignored but added at the end
+NOTE: BD5 (identical to AI1) is ignored but added at the end
+NOTE: BD6 (identical to AI1) is ignored but added at the end
+NOTE: BD7 (identical to AI1) is ignored but added at the end
+NOTE: BD8 (identical to AI1) is ignored but added at the end
+NOTE: BD9 (identical to AI1) is ignored but added at the end
+NOTE: CH9 (identical to AI1) is ignored but added at the end
+NOTE: CI9 (identical to AI1) is ignored but added at the end
+NOTE: CJ9 (identical to BA12) is ignored but added at the end
+NOTE: BH3 (identical to BH1) is ignored but added at the end
+NOTE: BH4 (identical to BH1) is ignored but added at the end
+NOTE: BH5 (identical to BH1) is ignored but added at the end
+NOTE: BH6 (identical to BH1) is ignored but added at the end
+NOTE: AK7 (identical to AG4) is ignored but added at the end
+NOTE: BK1 (identical to AG4) is ignored but added at the end
+NOTE: J8 (identical to AG4) is ignored but added at the end
+NOTE: AM6 (identical to A1) is ignored but added at the end
+NOTE: AN11 (identical to A1) is ignored but added at the end
+NOTE: CG4 (identical to A1) is ignored but added at the end
+NOTE: D4 (identical to A1) is ignored but added at the end
+NOTE: K7 (identical to A1) is ignored but added at the end
+NOTE: AB8 (identical to D1) is ignored but added at the end
+NOTE: N11 (identical to D1) is ignored but added at the end
+NOTE: AE5 (identical to AD12) is ignored but added at the end
+NOTE: AE6 (identical to AD12) is ignored but added at the end
+NOTE: AE9 (identical to AD12) is ignored but added at the end
+NOTE: AF11 (identical to AD12) is ignored but added at the end
+NOTE: AL4 (identical to AD12) is ignored but added at the end
+NOTE: AL7 (identical to AD12) is ignored but added at the end
+NOTE: BH9 (identical to AD12) is ignored but added at the end
+NOTE: CI3 (identical to AD12) is ignored but added at the end
+NOTE: CI6 (identical to AD12) is ignored but added at the end
+NOTE: K12 (identical to AD12) is ignored but added at the end
+NOTE: L8 (identical to AD12) is ignored but added at the end
+NOTE: M8 (identical to AD12) is ignored but added at the end
+NOTE: N1 (identical to AD12) is ignored but added at the end
+NOTE: N3 (identical to AD12) is ignored but added at the end
+NOTE: N5 (identical to AD12) is ignored but added at the end
+NOTE: O10 (identical to AD12) is ignored but added at the end
+NOTE: O12 (identical to AD12) is ignored but added at the end
+NOTE: O6 (identical to AD12) is ignored but added at the end
+NOTE: O9 (identical to AD12) is ignored but added at the end
+NOTE: P12 (identical to AD12) is ignored but added at the end
+NOTE: P2 (identical to AD12) is ignored but added at the end
+NOTE: P5 (identical to AD12) is ignored but added at the end
+NOTE: P7 (identical to AD12) is ignored but added at the end
+NOTE: P9 (identical to AD12) is ignored but added at the end
+NOTE: AK10 (identical to AF6) is ignored but added at the end
+NOTE: BH7 (identical to AF6) is ignored but added at the end
+NOTE: BH8 (identical to AF6) is ignored but added at the end
+NOTE: L6 (identical to AF6) is ignored but added at the end
+NOTE: O2 (identical to AF6) is ignored but added at the end
+NOTE: O3 (identical to AF6) is ignored but added at the end
+NOTE: P3 (identical to AF6) is ignored but added at the end
+NOTE: AM12 (identical to AL8) is ignored but added at the end
+NOTE: AM7 (identical to AL8) is ignored but added at the end
+NOTE: AN2 (identical to AL8) is ignored but added at the end
+NOTE: AN3 (identical to AL8) is ignored but added at the end
+NOTE: AN4 (identical to AL8) is ignored but added at the end
+NOTE: AN5 (identical to AL8) is ignored but added at the end
+NOTE: AO6 (identical to AO11) is ignored but added at the end
+NOTE: AP2 (identical to AO11) is ignored but added at the end
+NOTE: AP4 (identical to AO11) is ignored but added at the end
+NOTE: AP5 (identical to AO11) is ignored but added at the end
+NOTE: CJ2 (identical to AO11) is ignored but added at the end
+NOTE: G3 (identical to G1) is ignored but added at the end
+NOTE: G4 (identical to G1) is ignored but added at the end
+NOTE: G6 (identical to G1) is ignored but added at the end
+NOTE: G7 (identical to G1) is ignored but added at the end
+NOTE: CJ3 (identical to CJ10) is ignored but added at the end
+NOTE: CJ4 (identical to CJ10) is ignored but added at the end
+NOTE: CJ5 (identical to CJ10) is ignored but added at the end
+NOTE: CJ8 (identical to CJ10) is ignored but added at the end
+NOTE: CL1 (identical to CJ10) is ignored but added at the end
+NOTE: AE12 (identical to AA7) is ignored but added at the end
+NOTE: B12 (identical to AA7) is ignored but added at the end
+NOTE: C1 (identical to AA7) is ignored but added at the end
+NOTE: CL8 (identical to AA7) is ignored but added at the end
+NOTE: E8 (identical to AC10) is ignored but added at the end
+NOTE: AF3 (identical to AD9) is ignored but added at the end
+NOTE: AG10 (identical to AD9) is ignored but added at the end
+NOTE: N10 (identical to AD9) is ignored but added at the end
+NOTE: M6 (identical to AG7) is ignored but added at the end
+NOTE: BE3 (identical to AG2) is ignored but added at the end
+NOTE: CF4 (identical to AG2) is ignored but added at the end
+NOTE: CH12 (identical to AG2) is ignored but added at the end
+NOTE: H10 (identical to AG2) is ignored but added at the end
+NOTE: H5 (identical to AG2) is ignored but added at the end
+NOTE: I4 (identical to AG2) is ignored but added at the end
+NOTE: M9 (identical to AG2) is ignored but added at the end
+NOTE: P1 (identical to AG2) is ignored but added at the end
+NOTE: C2 (identical to BB3) is ignored but added at the end
+NOTE: GNM4698 (identical to GNM3559) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.018 seconds
+NOTE: ModelFinder requires 4 MB RAM!
+ModelFinder will test 12 DNA models (sample size: 337) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  1  GTR+FU        7755.963     388 16287.925    318151.925   17770.117
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  2  GTR+FU+I      6876.609     389 14531.219    317951.219   16017.231
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  3  GTR+FU+G4     6745.417     389 14268.833    317688.833   15754.846
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  4  GTR+FU+I+G4   6696.816     390 14173.633    319153.633   15663.465
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  5  HKY+FU        7817.024     384 16402.047    312082.047   17868.959
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  6  HKY+FU+I      6894.835     385 14559.671    311779.671   16030.403
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  7  HKY+FU+G4     6762.158     385 14294.315    311514.315   15765.047
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  8  HKY+FU+I+G4   6712.238     386 14196.475    312960.475   15671.027
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+  9  K2P           7817.023     384 16402.046    312082.046   17868.958
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 10  K2P+I         6894.803     385 14559.605    311779.605   16030.337
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 11  K2P+G4        6762.155     385 14294.310    311514.310   15765.042
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+ 12  K2P+I+G4      6712.237     386 14196.474    312960.474   15671.026
+Akaike Information Criterion:           GTR+FU+I+G4
+Corrected Akaike Information Criterion: K2P+G4
+Bayesian Information Criterion:         GTR+FU+I+G4
+Best-fit model: GTR+FU+I+G4 chosen according to BIC
+
+All model information printed to /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.model.gz
+CPU time for ModelFinder: 27.368 seconds (0h:0m:27s)
+Wall-clock time for ModelFinder: 1.875 seconds (0h:0m:1s)
+Generating 1000 samples for ultrafast bootstrap (seed: 420084)...
+
+NOTE: 4 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.250 / LogL: -6745.370
+Init pinv, alpha: 0.062, 1.000 / Estimate: 0.549, 1.540 / LogL: -6696.765
+Init pinv, alpha: 0.125, 1.000 / Estimate: 0.548, 1.532 / LogL: -6696.792
+Init pinv, alpha: 0.187, 1.000 / Estimate: 0.548, 1.534 / LogL: -6696.787
+Init pinv, alpha: 0.249, 1.000 / Estimate: 0.549, 1.537 / LogL: -6696.779
+Init pinv, alpha: 0.312, 1.000 / Estimate: 0.548, 1.533 / LogL: -6696.794
+Init pinv, alpha: 0.374, 1.000 / Estimate: 0.549, 1.537 / LogL: -6696.793
+Init pinv, alpha: 0.436, 1.000 / Estimate: 0.549, 1.538 / LogL: -6696.793
+Init pinv, alpha: 0.499, 1.000 / Estimate: 0.549, 1.537 / LogL: -6696.801
+Init pinv, alpha: 0.561, 1.000 / Estimate: 0.549, 1.543 / LogL: -6696.800
+Optimal pinv,alpha: 0.549, 1.540 / LogL: -6696.765
+
+Parameters optimization took 4.683 sec
+Computing ML distances based on estimated model parameters... 0.622 sec
+Computing BIONJ tree...
+0.033 seconds
+Log-likelihood of BIONJ tree: -6778.675
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.298 second
+Computing log-likelihood of 98 initial trees ... 5.406 seconds
+Current best score: -6678.084
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -6665.779
+Iteration 10 / LogL: -6697.814 / Time: 0h:0m:29s
+Iteration 20 / LogL: -6695.043 / Time: 0h:0m:46s
+Finish initializing candidate tree set (20)
+Current best tree score: -6665.779 / CPU time: 41.914
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -6661.456
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -6658.289
+Iteration 30 / LogL: -6663.784 / Time: 0h:1m:4s (0h:3m:38s left)
+Iteration 40 / LogL: -6664.754 / Time: 0h:1m:23s (0h:3m:7s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 45: -6657.073
+BETTER TREE FOUND at iteration 47: -6657.073
+Iteration 50 / LogL: -6657.504 / Time: 0h:1m:43s (0h:3m:25s left)
+Log-likelihood cutoff on original alignment: -6712.754
+UFBoot trees printed to /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.ufboot
+Iteration 60 / LogL: -6659.261 / Time: 0h:2m:6s (0h:3m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 61: -6656.925
+Iteration 70 / LogL: -6670.579 / Time: 0h:2m:25s (0h:3m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 80: -6656.855
+Iteration 80 / LogL: -6656.855 / Time: 0h:2m:40s (0h:3m:23s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 83: -6656.612
+Iteration 90 / LogL: -6659.631 / Time: 0h:2m:58s (0h:3m:6s left)
+Iteration 100 / LogL: -6670.347 / Time: 0h:3m:14s (0h:2m:43s left)
+Log-likelihood cutoff on original alignment: -6712.754
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+UFBoot trees printed to /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.ufboot
+Iteration 110 / LogL: -6661.477 / Time: 0h:3m:35s (0h:2m:57s left)
+Iteration 120 / LogL: -6683.648 / Time: 0h:3m:52s (0h:2m:36s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 122: -6656.433
+Iteration 130 / LogL: -6660.718 / Time: 0h:4m:7s (0h:2m:56s left)
+Iteration 140 / LogL: -6658.126 / Time: 0h:4m:24s (0h:2m:36s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 150: -6655.339
+Iteration 150 / LogL: -6655.339 / Time: 0h:4m:39s (0h:3m:7s left)
+Log-likelihood cutoff on original alignment: -6712.754
+UFBoot trees printed to /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.ufboot
+Iteration 160 / LogL: -6665.546 / Time: 0h:4m:59s (0h:2m:49s left)
+Iteration 170 / LogL: -6657.162 / Time: 0h:5m:16s (0h:2m:29s left)
+Iteration 180 / LogL: -6658.146 / Time: 0h:5m:32s (0h:2m:10s left)
+Iteration 190 / LogL: -6666.288 / Time: 0h:5m:48s (0h:1m:50s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 196: -6655.175
+Iteration 200 / LogL: -6658.577 / Time: 0h:6m:7s (0h:2m:57s left)
+Log-likelihood cutoff on original alignment: -6712.754
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+UFBoot trees printed to /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.ufboot
+Iteration 210 / LogL: -6671.765 / Time: 0h:6m:26s (0h:2m:46s left)
+Iteration 220 / LogL: -6655.378 / Time: 0h:6m:42s (0h:2m:26s left)
+BETTER TREE FOUND at iteration 224: -6655.175
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 230: -6655.066
+Iteration 230 / LogL: -6655.066 / Time: 0h:6m:58s (0h:3m:2s left)
+Iteration 240 / LogL: -6663.833 / Time: 0h:7m:13s (0h:2m:43s left)
+Iteration 250 / LogL: -6667.018 / Time: 0h:7m:30s (0h:2m:24s left)
+Log-likelihood cutoff on original alignment: -6712.754
+UFBoot trees printed to /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.ufboot
+BETTER TREE FOUND at iteration 254: -6655.065
+Iteration 260 / LogL: -6668.375 / Time: 0h:7m:51s (0h:2m:51s left)
+Iteration 270 / LogL: -6655.172 / Time: 0h:8m:7s (0h:2m:32s left)
+Iteration 280 / LogL: -6658.053 / Time: 0h:8m:23s (0h:2m:13s left)
+Iteration 290 / LogL: -6655.407 / Time: 0h:8m:41s (0h:1m:55s left)
+Iteration 300 / LogL: -6655.171 / Time: 0h:8m:58s (0h:1m:37s left)
+Log-likelihood cutoff on original alignment: -6712.754
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+UFBoot trees printed to /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.ufboot
+Iteration 310 / LogL: -6655.171 / Time: 0h:9m:17s (0h:2m:42s left)
+Iteration 320 / LogL: -6664.093 / Time: 0h:9m:33s (0h:2m:23s left)
+Iteration 330 / LogL: -6664.011 / Time: 0h:9m:50s (0h:2m:5s left)
+Iteration 340 / LogL: -6655.171 / Time: 0h:10m:8s (0h:1m:47s left)
+BETTER TREE FOUND at iteration 346: -6655.065
+Iteration 350 / LogL: -6659.060 / Time: 0h:10m:24s (0h:2m:51s left)
+Log-likelihood cutoff on original alignment: -6712.754
+UFBoot trees printed to /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.ufboot
+Iteration 360 / LogL: -6656.796 / Time: 0h:10m:44s (0h:2m:34s left)
+Iteration 370 / LogL: -6657.338 / Time: 0h:11m:2s (0h:2m:16s left)
+Iteration 380 / LogL: -6658.261 / Time: 0h:11m:18s (0h:1m:58s left)
+BETTER TREE FOUND at iteration 382: -6655.065
+Iteration 390 / LogL: -6656.882 / Time: 0h:11m:34s (0h:2m:44s left)
+Iteration 400 / LogL: -6658.538 / Time: 0h:11m:54s (0h:2m:26s left)
+Log-likelihood cutoff on original alignment: -6712.754
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+UFBoot trees printed to /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.ufboot
+Iteration 410 / LogL: -6669.251 / Time: 0h:12m:13s (0h:2m:41s left)
+Iteration 420 / LogL: -6657.191 / Time: 0h:12m:31s (0h:2m:23s left)
+UPDATE BEST LOG-LIKELIHOOD: -6655.065
+Iteration 430 / LogL: -6658.277 / Time: 0h:12m:47s (0h:2m:5s left)
+Iteration 440 / LogL: -6658.535 / Time: 0h:13m:4s (0h:1m:47s left)
+BETTER TREE FOUND at iteration 443: -6655.064
+Iteration 450 / LogL: -6668.892 / Time: 0h:13m:19s (0h:2m:45s left)
+Log-likelihood cutoff on original alignment: -6712.754
+UFBoot trees printed to /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.ufboot
+Iteration 460 / LogL: -6655.892 / Time: 0h:13m:41s (0h:2m:28s left)
+Iteration 470 / LogL: -6655.676 / Time: 0h:13m:58s (0h:2m:10s left)
+Iteration 480 / LogL: -6659.231 / Time: 0h:14m:16s (0h:1m:52s left)
+Iteration 490 / LogL: -6656.913 / Time: 0h:14m:34s (0h:1m:34s left)
+Iteration 500 / LogL: -6655.533 / Time: 0h:14m:51s (0h:1m:16s left)
+Log-likelihood cutoff on original alignment: -6712.754
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+UFBoot trees printed to /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.ufboot
+Iteration 510 / LogL: -6659.836 / Time: 0h:15m:11s (0h:2m:41s left)
+Iteration 520 / LogL: -6656.785 / Time: 0h:15m:28s (0h:2m:23s left)
+Iteration 530 / LogL: -6660.974 / Time: 0h:15m:43s (0h:2m:4s left)
+Iteration 540 / LogL: -6661.673 / Time: 0h:16m:2s (0h:1m:47s left)
+TREE SEARCH COMPLETED AFTER 544 ITERATIONS / Time: 0h:16m:8s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -6655.064
+Optimal log-likelihood: -6655.063
+Rate parameters:  A-C: 1.12050  A-G: 4.23811  A-T: 0.52181  C-G: 1.59052  C-T: 5.34726  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.546
+Gamma shape alpha: 1.448
+Parameters optimization took 1 rounds (0.033 sec)
+BEST SCORE FOUND : -6655.063
+Creating bootstrap support values...
+Split supports printed to NEXUS file /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.splits.nex
+Total tree length: 4.534
+
+Total number of iterations: 544
+CPU time used for tree search: 13434.460 sec (3h:43m:54s)
+Wall-clock time used for tree search: 963.204 sec (0h:16m:3s)
+Total CPU time used: 13513.148 sec (3h:45m:13s)
+Total wall-clock time used: 968.947 sec (0h:16m:8s)
+UFBoot trees printed to /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.splits.nex...
+193 taxa and 1456 splits.
+Consensus tree written to /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.contree
+Reading input trees file /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.contree
+Log-likelihood of consensus tree: -6655.533
+
+Analysis results written to: 
+  IQ-TREE report:                /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.iqtree
+  Maximum-likelihood tree:       /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.treefile
+  Likelihood distances:          /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.splits.nex
+  Consensus tree:                /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.contree
+  UFBoot trees:                  /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.ufboot
+  Screen log file:               /mnt/ivy/thliao/project/coral_ruegeria/ipynb/paper_denitrification/nirS2_amplicon.nucl_iqtree.log
+
+Date and Time: Wed Feb 19 18:39:07 2025

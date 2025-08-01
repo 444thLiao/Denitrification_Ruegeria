@@ -1,0 +1,506 @@
+DATASET_BINARY
+#Binary datasets are visualized as filled or empty symbols, depending on the value associated with a node (0 or 1).
+#Each node can have multiple associated values, and each value will be represented by a symbol (defined in FIELD_SHAPES) with corresponding color and label (from FIELD_COLORS and FIELD_LABELS).
+#Possible values (defined under DATA below) for each node are 1 (filled shapes), 0 (empty shapes) and -1 (completely omitted).
+
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line, which uses space).
+SEPARATOR TAB
+#SEPARATOR SPACE
+#SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL	Xenobiotics metabolism
+
+#dataset color (can be changed later)
+COLOR	#ff0000
+
+#shapes for each field column; possible choices are
+#1: rectangle 
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#6: check mark
+FIELD_SHAPES	2	2	2	2	2	2	2
+FIELD_LABELS	K07104	K01501	K05296	K01856	K03333	K16171	K05913
+FIELD_COLORS	#9ece9e	#a4d2a4	#badcba	#b264b2	#a246a2	#9c389c	#932893
+LEGEND_TITLE	Xenobiotics metabolism
+LEGEND_SHAPES	2	2	2	2	2	2	2
+LEGEND_LABELS	K07104	K01501	K05296	K01856	K03333	K16171	K05913
+LEGEND_COLORS	#9ece9e	#a4d2a4	#badcba	#b264b2	#a246a2	#9c389c	#932893
+#FIELD_SHAPES	
+
+#field labels
+#FIELD_LABELS	
+
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+
+#define colors for each individual field column (if not defined all symbols will use the main dataset color, defined in COLOR above)
+#FIELD_COLORS	
+
+
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
+
+#always show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+#SHOW_INTERNAL,0
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+MARGIN	20
+HORIZONTAL_GRID	0
+VERTICAL_GRID	0
+#align symbols to the end of each leaf label (individual dataset field will not be aligned to each other)
+#ALIGN_TO_LABELS,1
+
+#symbol height factor; Default symbol height will be slightly less than the available space between leaves, but you can set a multiplication factor here to increase/decrease it (values from 0 to 1 will decrease it, values above 1 will increase it)
+#HEIGHT_FACTOR,1
+
+#increase/decrease the spacing between individual levels, when there is more than one binary level defined 
+#SYMBOL_SPACING,10
+
+#display or hide the text labels above each field column
+#SHOW_LABELS,1
+
+#Example dataset with 4 columns (circle, left triangle, right triangle and rectangle):
+#FIELD_SHAPES,2,4,5,1
+#FIELD_LABELS,f1,f2,f3,f4
+#FIELD_COLORS,#ff0000,#00ff00,#ffff00,#0000ff
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+#node 9606 will have a filled circle, empty left triangle, nothing in the 3rd column and an empty rectangle
+#9606,1,0,-1,0
+
+
+
+A5	1	0	1	0	0	0	0
+AA2	1	0	0	0	0	0	1
+AA4	1	0	0	0	0	0	1
+AA8	0	0	1	0	0	0	1
+AA9	0	0	0	0	0	0	0
+AB4	1	0	1	0	0	0	0
+AB7	0	0	0	0	0	0	0
+AC8	0	0	0	0	0	0	0
+AD1	1	0	0	0	0	0	1
+AD5	1	0	0	0	0	0	0
+AF2	1	0	0	0	0	0	0
+AH1	0	0	0	0	0	0	0
+AH10	0	0	0	0	0	0	0
+AH11	0	0	0	0	0	0	0
+AH4	0	0	0	0	0	0	0
+AH5	0	0	0	0	0	0	0
+AH6	0	0	0	0	0	0	0
+AH8	0	0	0	0	0	0	0
+AH9	0	0	0	0	0	0	0
+AM5	0	0	0	0	0	0	0
+AN9	0	0	0	0	0	0	0
+B11	0	0	0	0	0	0	0
+BJ7	0	0	0	0	0	0	0
+C10	1	0	0	0	0	0	0
+C5	1	0	0	0	0	0	1
+C6	0	0	0	0	0	0	0
+C9	0	0	1	0	0	0	1
+CE6	0	0	0	0	0	0	0
+CE7	0	0	0	0	0	0	0
+CF1	0	0	0	0	0	0	0
+CF3	0	0	0	0	0	0	0
+CG1	0	0	0	0	0	0	1
+CG2	0	0	0	0	0	0	0
+CG9	0	0	0	0	0	0	0
+CJ6	0	0	0	0	0	0	0
+D10	1	0	0	0	0	0	1
+D12	1	0	0	0	0	0	1
+D6	0	0	0	0	0	0	0
+D7	0	0	0	0	0	0	0
+E2	1	0	0	0	0	0	1
+E5	1	0	0	0	0	0	1
+E6	1	0	0	0	0	0	1
+H9	0	0	0	0	0	0	0
+I3	0	0	0	0	0	0	0
+I5	0	0	0	0	0	0	0
+K3	1	0	0	0	0	0	1
+K6	1	0	0	0	0	0	1
+AF10	0	0	0	1	0	0	1
+AG6	0	0	0	1	0	0	1
+AL3	0	0	0	1	0	0	0
+AP8	0	0	0	1	0	0	1
+CL7	0	0	0	1	0	0	1
+N2	0	0	0	1	0	0	1
+N9	0	0	0	1	0	0	1
+P10	0	0	0	1	0	0	1
+AA12	0	0	0	0	0	0	0
+AB1	0	0	0	0	0	0	0
+AC11	0	0	0	0	0	0	0
+AJ1	0	0	0	0	0	0	0
+AJ9	0	0	0	0	0	0	0
+B1	0	0	0	0	0	0	0
+B2	0	0	0	0	0	0	0
+B4	0	0	0	0	0	0	0
+B7	0	0	0	0	0	0	0
+D9	0	0	0	0	0	0	0
+E12	0	0	0	0	0	0	0
+E4	0	0	0	0	0	0	0
+E9	0	0	0	0	0	0	0
+F6	0	0	0	0	0	0	0
+F7	0	0	0	0	0	0	0
+BC9	1	0	0	1	0	0	1
+AB5	0	0	0	0	0	0	1
+F11	0	1	0	1	0	0	0
+AB9	0	0	0	0	0	0	1
+A2	0	0	0	0	0	0	0
+BB4	0	0	0	0	1	0	0
+BC2	0	0	0	0	0	0	0
+BC8	0	0	0	0	1	0	0
+BF8	0	0	1	0	0	0	0
+BF9	0	0	1	0	0	0	0
+BI10	0	0	0	0	1	0	0
+CG3	0	0	0	0	0	0	0
+CG8	0	0	0	0	0	0	0
+CH4	0	0	0	0	1	0	0
+CH5	0	0	0	0	0	0	0
+CI5	0	0	1	0	0	0	0
+CI8	0	0	0	0	0	0	0
+CL3	0	0	0	0	0	0	1
+BB7	0	0	0	0	0	0	1
+BC3	0	0	0	1	0	0	1
+E1	0	1	0	0	0	0	0
+BF10	0	0	0	1	0	0	0
+BF11	0	0	0	1	0	0	0
+CG11	0	0	0	0	0	0	0
+BC6	0	0	0	0	0	0	0
+AI2	1	0	0	1	0	0	0
+AK3	0	0	0	1	0	0	1
+AP10	0	0	0	1	0	0	1
+AP11	0	0	0	1	0	0	1
+AP9	0	0	0	1	0	0	1
+BE5	0	0	0	1	0	0	1
+BE6	0	0	0	1	0	0	1
+BE8	0	0	0	1	0	0	1
+BH12	0	0	0	1	0	0	1
+I10	0	0	0	1	0	0	1
+I11	0	0	0	1	0	0	1
+I12	0	0	0	1	0	0	1
+I6	0	0	0	1	0	0	1
+I7	0	0	0	1	0	0	1
+I8	0	0	0	1	0	0	1
+I9	0	0	0	1	0	0	1
+J1	0	0	0	1	0	0	1
+J10	0	0	0	1	0	0	1
+J11	0	0	0	1	0	0	1
+J12	0	0	0	1	0	0	1
+J2	0	0	0	1	0	0	1
+J3	0	0	0	1	0	0	1
+J4	0	0	0	1	0	0	1
+J5	0	0	0	1	0	0	1
+J6	0	0	0	1	0	0	1
+J7	0	0	0	1	0	0	1
+J9	0	0	0	1	0	0	1
+K2	0	0	0	1	0	0	1
+L12	0	0	0	1	0	0	1
+BC1	0	0	0	0	0	0	0
+BE9	1	0	0	1	0	0	1
+BI11	0	0	0	1	0	0	1
+BA11	1	0	0	1	0	0	1
+BB9	0	0	1	0	0	0	0
+BJ3	0	0	0	0	0	0	0
+BJ4	0	0	0	0	0	0	0
+BJ5	0	0	0	0	0	0	0
+H6	0	0	0	0	0	0	0
+G5	1	1	0	0	0	0	0
+C11	0	0	0	1	0	0	1
+AD2	0	1	0	0	0	0	0
+CE9	0	0	0	0	0	0	1
+BD11	0	0	0	1	0	0	1
+BG1	0	0	0	1	0	0	1
+BG4	0	0	0	1	0	0	1
+BG7	0	0	0	1	0	0	1
+BG10	0	0	0	1	0	0	0
+N4	1	0	0	1	0	0	0
+P11	1	0	0	1	0	0	0
+AA10	0	0	0	1	0	0	1
+CF5	0	0	0	1	0	0	1
+BB6	0	0	0	1	0	0	0
+BC7	0	0	0	0	0	0	0
+CF7	0	0	0	1	0	0	0
+CL6	0	0	0	0	0	0	0
+A4	0	0	0	0	0	0	0
+AA1	0	0	0	0	0	0	0
+AL12	1	0	0	0	0	0	0
+H8	1	0	0	0	0	0	1
+AD11	0	0	0	1	1	0	1
+BF4	0	0	0	1	1	0	1
+BF6	0	0	0	1	1	0	1
+BF7	0	0	0	1	1	0	1
+AH2	0	0	0	0	0	0	0
+AH7	0	0	0	0	0	0	0
+H1	0	0	0	0	0	0	0
+H2	0	0	0	0	0	0	0
+H3	0	0	0	0	0	0	0
+H4	0	0	0	0	0	0	0
+I1	0	0	0	0	0	0	0
+AI1	0	0	0	1	0	0	1
+BA10	0	0	0	0	0	0	1
+BA12	0	0	0	1	0	0	1
+BA8	0	0	0	1	0	0	1
+BA9	0	0	0	1	0	0	1
+BB1	0	0	0	1	0	0	1
+BB10	0	0	0	0	0	0	1
+BB5	0	0	0	1	0	0	1
+BC12	0	0	0	1	0	0	1
+BC4	0	0	0	1	0	0	1
+BC5	0	0	0	1	0	0	1
+BD1	0	0	0	1	0	0	1
+BD2	0	0	0	1	0	0	1
+BD3	0	0	0	1	0	0	1
+BD4	0	0	0	1	0	0	1
+BD5	0	0	0	1	0	0	1
+BD6	0	0	0	1	0	0	1
+BD7	0	0	0	1	0	0	1
+BD8	0	0	0	1	0	0	1
+BD9	0	0	0	1	0	0	1
+BE10	0	0	0	1	0	0	1
+BH1	0	0	0	1	0	0	1
+BH2	0	0	0	1	0	0	1
+BH3	0	0	0	1	0	0	1
+BH4	0	0	0	1	0	0	1
+BH5	0	0	0	1	0	0	1
+BH6	0	0	0	1	0	0	1
+BI7	0	0	0	1	0	0	1
+CF11	0	0	0	1	0	0	1
+CH9	0	0	0	1	0	0	1
+CI9	0	0	0	1	0	0	1
+CJ7	0	0	0	1	0	0	1
+CJ9	0	0	0	1	0	0	1
+AA5	0	0	0	1	0	0	0
+AB6	0	1	0	0	0	0	0
+AG4	0	1	0	0	0	0	0
+AK6	0	1	0	0	0	0	0
+AK7	0	1	0	0	0	0	0
+BK1	0	1	0	0	0	0	0
+F12	0	0	0	0	0	0	0
+J8	1	1	0	0	0	0	1
+N8	0	0	0	0	0	0	0
+AD6	1	0	0	1	0	0	0
+AP12	0	0	0	1	0	0	0
+BG5	0	0	0	1	0	0	0
+C12	1	0	0	1	0	0	1
+H7	0	0	0	1	0	0	0
+K5	0	0	0	1	0	0	0
+AI3	1	0	0	1	0	0	1
+C8	0	0	0	1	0	0	1
+AL11	0	0	0	1	1	0	1
+BG9	0	0	0	0	0	0	1
+CJ1	1	0	0	0	0	0	1
+A1	0	0	0	1	0	0	0
+AE10	0	0	0	1	0	0	1
+AM6	0	0	0	1	0	0	0
+AN11	0	0	0	1	0	0	0
+CG4	0	0	0	0	0	0	1
+D1	0	0	0	1	0	0	0
+D4	0	0	0	1	0	0	0
+D5	0	0	0	1	0	0	0
+K7	0	0	0	1	0	0	1
+AA3	0	0	0	0	0	0	1
+G2	0	0	0	0	0	0	0
+AD12	1	0	0	1	0	0	0
+AE1	1	0	0	1	0	0	0
+AE4	1	0	0	1	0	0	0
+AE5	1	0	0	1	0	0	0
+AE6	1	0	0	1	0	0	1
+AE9	1	0	0	1	0	0	0
+AF11	1	0	0	1	0	0	0
+AF4	1	0	0	1	0	0	0
+AF5	1	0	0	1	0	0	0
+AF6	1	0	0	1	0	0	0
+AF7	0	0	1	1	0	0	0
+AF9	1	0	0	1	0	0	0
+AK10	1	0	0	1	0	0	0
+AK11	1	0	0	1	0	0	0
+AL4	1	0	0	1	0	0	0
+AL7	1	0	0	1	0	0	0
+BH7	1	0	0	1	0	0	0
+BH8	1	0	0	1	0	0	0
+BH9	1	0	0	1	0	0	0
+CH2	1	0	0	1	0	0	1
+CI3	1	0	0	1	0	0	0
+CI6	1	0	0	1	0	0	0
+K12	1	0	0	1	0	0	1
+L11	1	0	0	1	0	0	0
+L6	1	0	0	1	0	0	0
+L8	1	0	0	1	0	0	0
+M11	1	0	0	1	0	0	0
+M8	1	0	0	1	0	0	0
+N1	1	0	0	1	0	0	0
+N12	1	0	0	1	0	0	0
+N3	1	0	0	1	0	0	0
+N5	1	0	0	1	0	0	0
+N7	1	0	0	1	0	0	0
+O10	1	0	0	1	0	0	0
+O12	1	0	0	1	0	0	0
+O2	1	0	0	1	0	0	0
+O3	1	0	0	1	0	0	0
+O4	1	0	0	1	0	0	0
+O5	1	0	0	1	0	0	0
+O6	1	0	0	1	0	0	0
+O9	1	0	0	1	0	0	0
+P12	1	0	0	1	0	0	0
+P2	1	0	0	1	0	0	1
+P3	1	0	0	1	0	0	0
+P5	1	0	0	1	0	0	0
+P7	1	0	0	1	0	0	1
+P8	1	0	0	1	0	0	0
+P9	1	0	0	1	0	0	0
+BI12	0	0	0	1	0	0	0
+BE1	0	1	0	0	0	0	0
+CH10	0	1	0	0	0	0	0
+AB8	0	0	0	1	0	1	0
+N11	0	0	0	1	0	1	1
+BG6	0	0	0	1	0	0	1
+AK4	1	0	1	1	0	0	1
+F5	1	0	0	1	0	0	1
+AB10	0	0	0	0	0	0	0
+BF12	0	0	0	1	0	0	1
+CE8	1	0	0	1	0	0	1
+CE10	0	0	0	1	0	0	1
+AL1	0	1	0	0	0	0	0
+K11	0	1	0	0	0	0	0
+D3	0	1	0	0	0	0	0
+AN12	0	0	0	1	0	0	1
+AN8	0	0	0	1	0	0	1
+AO1	0	0	0	1	0	0	1
+AO10	0	0	0	1	0	0	1
+AO12	0	0	0	1	0	0	1
+AO2	0	0	0	1	0	0	1
+AO3	0	0	0	1	0	0	1
+AO4	0	0	0	1	0	0	1
+AO7	0	0	0	1	0	0	1
+AO9	0	0	0	1	0	0	1
+AP1	0	0	0	1	0	0	1
+AP3	0	0	0	1	0	0	1
+AP6	0	0	0	1	0	0	1
+AL8	0	1	0	0	0	0	0
+AM11	0	1	0	0	0	0	0
+AM12	0	1	0	0	0	0	0
+AM7	0	1	0	0	0	0	0
+AN2	0	1	0	0	0	0	0
+AN3	0	1	0	0	0	0	0
+AN4	0	1	0	0	0	0	0
+AN5	0	1	0	0	0	0	0
+AJ12	0	0	0	0	0	0	0
+AK1	0	0	0	0	0	0	0
+BG2	0	0	0	0	0	0	1
+BG3	0	0	0	0	0	0	1
+AO11	1	0	0	0	0	0	0
+AO5	1	0	0	0	0	0	0
+AO6	1	0	0	0	0	0	0
+AP2	1	0	0	0	0	0	0
+AP4	1	0	0	0	0	0	0
+AP5	1	0	0	0	0	0	0
+CJ2	1	0	0	0	0	0	0
+G1	0	1	0	0	0	0	0
+G10	0	1	0	0	0	0	0
+G11	0	1	0	0	0	0	0
+G3	0	1	0	0	0	0	0
+G4	0	1	0	0	0	0	0
+G6	0	1	0	0	0	0	0
+G7	0	1	0	0	0	0	0
+G9	0	1	0	0	0	0	0
+B10	0	0	0	1	0	0	1
+B8	0	0	0	1	0	0	1
+B9	0	0	0	1	0	0	1
+BG11	1	0	0	1	0	0	1
+BG12	0	1	0	0	0	0	0
+BG8	0	1	0	0	0	0	0
+CJ10	0	1	0	0	0	0	0
+CJ11	0	1	0	0	0	0	0
+CJ3	0	1	0	0	0	0	0
+CJ4	0	1	0	0	0	0	0
+CJ5	0	1	0	0	0	0	0
+CJ8	0	1	0	0	0	0	0
+CL1	0	0	0	0	0	0	0
+CF2	0	0	0	0	1	0	0
+AA7	0	0	0	0	0	1	1
+AB11	0	0	0	0	0	1	1
+AE12	0	0	0	0	0	1	1
+AN6	0	0	0	0	0	1	1
+AN7	0	0	0	0	0	1	1
+AP7	0	0	0	0	0	1	1
+B12	0	0	0	0	0	1	1
+C1	0	0	0	0	0	1	1
+CL5	0	0	0	0	0	0	1
+CL8	0	0	0	0	0	1	1
+O11	0	0	0	0	0	1	1
+BA2	1	0	0	1	0	0	1
+C4	1	0	0	1	0	0	1
+AC10	0	0	0	1	0	0	0
+AC6	0	0	0	1	0	0	0
+E8	0	0	0	1	0	0	0
+CJ12	0	0	0	0	0	0	0
+CK2	0	0	0	0	0	0	0
+AB12	0	0	0	0	0	0	1
+AF12	1	0	0	0	0	0	1
+AG1	1	0	0	0	0	0	1
+D2	1	0	0	0	0	0	1
+AM9	1	0	0	0	0	0	0
+AD9	1	0	1	1	0	0	0
+AE3	1	0	1	1	0	0	1
+AF1	1	0	0	1	0	0	0
+AF3	1	0	1	1	0	0	0
+AG10	1	0	1	1	0	0	0
+AG7	1	0	1	1	0	0	0
+AL2	1	0	0	1	0	0	0
+M2	1	0	1	1	0	0	0
+M6	1	0	1	1	0	0	0
+N10	1	0	1	1	0	0	0
+CH8	0	0	0	1	0	0	1
+BJ6	0	0	0	1	0	0	1
+CH11	0	0	0	1	0	0	1
+AM1	0	0	0	0	0	0	0
+AM8	0	1	0	1	0	0	1
+CK3	1	0	0	1	1	0	1
+AM4	0	0	0	1	0	0	1
+AM2	0	0	0	1	0	0	0
+CI1	0	0	0	0	0	0	0
+AF8	0	0	0	1	0	0	1
+CE12	0	0	0	1	0	0	0
+AG2	1	1	1	0	0	0	0
+AH3	1	1	1	0	0	0	0
+BB3	1	0	0	1	0	0	0
+BC10	1	0	0	1	0	0	0
+BE3	1	1	1	1	0	0	0
+C2	1	0	0	1	0	0	0
+CF4	0	1	1	1	0	0	0
+CH12	1	1	1	1	0	0	0
+H10	0	1	0	1	0	0	0
+H5	1	1	1	0	0	0	0
+I4	0	1	1	1	0	0	0
+M9	0	1	1	1	0	0	0
+P1	0	1	1	1	0	0	0
+AH12	0	0	0	0	0	0	0
+CK1	1	1	0	0	0	0	0
+CH6	0	0	0	0	0	0	0
+G12	0	1	0	1	0	0	0
+CF8	0	0	0	1	0	0	1
+AA6	1	0	0	0	0	0	0
+GNM3479	0	0	0	0	0	0	0
+GNM3538	0	0	0	1	0	0	0
+GNM3559	0	0	0	1	0	0	0
+GNM3892	0	0	0	1	0	0	0
+GNM4290	0	0	1	0	0	0	0
+GNM4649	0	0	0	1	0	0	0
+GNM4677	0	0	0	1	0	0	0
+GNM4698	0	0	0	1	0	0	0
+GNM4727	0	1	0	0	0	0	0
+GNM6322	0	0	0	1	0	0	0

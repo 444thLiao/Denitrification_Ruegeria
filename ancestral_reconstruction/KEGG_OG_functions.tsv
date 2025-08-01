@@ -1,0 +1,227 @@
+KEGG number	Description	Found by SoftwareK19340	nosF; Cu-processing system ATP-binding protein	both
+K00344	qor, CRYZ; NADPH:quinone reductase [EC:1.6.5.5]	both
+K03664	smpB; SsrA-binding protein	both
+K06180	rluD; 23S rRNA pseudouridine1911/1915/1917 synthase [EC:5.4.99.23]	both
+K02909	RP-L31, rpmE; large subunit ribosomal protein L31	both
+K02303	cobA; uroporphyrin-III C-methyltransferase [EC:2.1.1.107]	both
+K03497	parB, spo0J; ParB family transcriptional regulator, chromosome partitioning protein	both
+K11690	dctM; C4-dicarboxylate transporter, DctM subunit	both
+K16846	suyB; (2R)-sulfolactate sulfo-lyase subunit beta [EC:4.4.1.24]	both
+K10441	rbsA; ribose transport system ATP-binding protein [EC:7.5.2.7]	both
+K02231	cobP, cobU; adenosylcobinamide kinase / adenosylcobinamide-phosphate guanylyltransferase [EC:2.7.1.156 2.7.7.62]	both
+K06041	kdsD, kpsF; arabinose-5-phosphate isomerase [EC:5.3.1.13]	both
+K22215	galD; galactose dehydrogenase [EC:1.1.1.48 1.1.1.120]	both
+K04775	ydgD; protease YdgD [EC:3.4.21.-]	both
+K03525	coaX; type III pantothenate kinase [EC:2.7.1.33]	both
+K22042	hlyU; ArsR family transcriptional regulator, virulence genes transcriptional regulator	both
+K10562	rhaT; rhamnose transport system ATP-binding protein [EC:7.5.2.-]	both
+K17325	K17325, glpT; glycerol transport system ATP-binding protein	both
+K06132	clsC; cardiolipin synthase C [EC:2.7.8.-]	both
+K07302	iorA; isoquinoline 1-oxidoreductase subunit alpha [EC:1.3.99.16]	both
+K14058	ttcA; tRNA 2-thiocytidine biosynthesis protein TtcA	both
+K00249	ACADM, acd; acyl-CoA dehydrogenase [EC:1.3.8.7]	both
+K09794	K09794; uncharacterized protein	both
+K03584	recO; DNA repair protein RecO (recombination protein O)	both
+K03665	hflX; GTPase	both
+K03574	mutT, NUDT15, MTH2; 8-oxo-dGTP diphosphatase [EC:3.6.1.55]	both
+K00404	ccoN; cytochrome c oxidase cbb3-type subunit I [EC:1.9.3.1]	both
+K01721	nthA; nitrile hydratase subunit alpha [EC:4.2.1.84]	both
+K00227	SC5DL, ERG3; Delta7-sterol 5-desaturase [EC:1.14.19.20]	both
+K13747	nspC; carboxynorspermidine decarboxylase [EC:4.1.1.96]	both
+K02409	fliF; flagellar M-ring protein FliF	both
+K01652	E2.2.1.6L, ilvB, ilvG, ilvI; acetolactate synthase I/II/III large subunit [EC:2.2.1.6]	both
+K02992	RP-S7, MRPS7, rpsG; small subunit ribosomal protein S7	both
+K19342	nosL; copper chaperone NosL	both
+K00206	phnY; phosphonoacetaldehyde dehydrogenase [EC:1.2.1.-]	both
+K03851	tpa; taurine-pyruvate aminotransferase [EC:2.6.1.77]	both
+K00874	kdgK; 2-dehydro-3-deoxygluconokinase [EC:2.7.1.45]	both
+K10820	ytfR; galactofuranose transport system ATP-binding protein [EC:7.5.2.9]	both
+K09022	ridA, tdcF, RIDA; 2-iminobutanoate/2-iminopropanoate deaminase [EC:3.5.99.10]	both
+K01079	serB, PSPH; phosphoserine phosphatase [EC:3.1.3.3]	both
+K01903	sucC; succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	both
+K01768	E4.6.1.1; adenylate cyclase [EC:4.6.1.1]	both
+K01119	cpdB; 2',3'-cyclic-nucleotide 2'-phosphodiesterase / 3'-nucleotidase [EC:3.1.4.16 3.1.3.6]	both
+K18320	IS15, IS26; transposase, IS6 family	both
+K03154	thiS; sulfur carrier protein	both
+K18013	kce; 3-keto-5-aminohexanoate cleavage enzyme [EC:2.3.1.247]	both
+K07498	K07498; putative transposase	both
+K10554	frcA; fructose transport system ATP-binding protein	both
+K21395	yiaO; TRAP-type transport system periplasmic protein	both
+K00883	dgoK; 2-dehydro-3-deoxygalactonokinase [EC:2.7.1.58]	both
+K01958	PC, pyc; pyruvate carboxylase [EC:6.4.1.1]	both
+K19341	nosY; Cu-processing system permease protein	both
+K26272	dgcN; D-glutamate N-acetyltransferase [EC:2.3.1.312]	both
+K00813	aspC; aspartate aminotransferase [EC:2.6.1.1]	both
+K09471	puuB, ordL; gamma-glutamylputrescine oxidase [EC:1.4.3.-]	both
+K01649	leuA, IMS; 2-isopropylmalate synthase [EC:2.3.3.13]	both
+K07146	K07146; UPF0176 protein	both
+K03500	rsmB, sun; 16S rRNA (cytosine967-C5)-methyltransferase [EC:2.1.1.176]	both
+K07010	K07010; putative glutamine amidotransferase	both
+K01247	alkA; DNA-3-methyladenine glycosylase II [EC:3.2.2.21]	both
+K00254	DHODH, pyrD; dihydroorotate dehydrogenase [EC:1.3.5.2]	both
+K09160	K09160; uncharacterized protein	both
+K03559	exbD; biopolymer transport protein ExbD	both
+K02415	fliL; flagellar FliL protein	both
+K09989	K09989; uncharacterized protein	both
+K02876	RP-L15, MRPL15, rplO; large subunit ribosomal protein L15	both
+K02529	lacI, galR; LacI family transcriptional regulator	both
+K16329	psuG; pseudouridylate synthase [EC:4.2.1.70]	both
+K00261	GLUD1_2, gdhA; glutamate dehydrogenase (NAD(P)+) [EC:1.4.1.3]	both
+K04762	hslR; ribosome-associated heat shock protein Hsp15	both
+K05834	rhtB; homoserine/homoserine lactone efflux protein	both
+K01619	deoC, DERA; deoxyribose-phosphate aldolase [EC:4.1.2.4]	both
+K00259	ald; alanine dehydrogenase [EC:1.4.1.1]	ecceTERA
+K00604	MTFMT, fmt; methionyl-tRNA formyltransferase [EC:2.1.2.9]	ecceTERA
+K00799	GST, gst; glutathione S-transferase [EC:2.5.1.18]	ecceTERA
+K00873	PK, pyk; pyruvate kinase [EC:2.7.1.40]	ecceTERA
+K01048	pldB; lysophospholipase [EC:3.1.1.5]	ecceTERA
+K01284	dcp; peptidyl-dipeptidase Dcp [EC:3.4.15.5]	ecceTERA
+K01434	E3.5.1.11; penicillin amidase [EC:3.5.1.11]	ecceTERA
+K01470	E3.5.2.10; creatinine amidohydrolase [EC:3.5.2.10]	ecceTERA
+K01483	allA; ureidoglycolate lyase [EC:4.3.2.3]	ecceTERA
+K01588	purE; 5-(carboxyamino)imidazole ribonucleotide mutase [EC:5.4.99.18]	ecceTERA
+K01652	E2.2.1.6L, ilvB, ilvG, ilvI; acetolactate synthase I/II/III large subunit [EC:2.2.1.6]	ecceTERA
+K01692	paaF, echA; enoyl-CoA hydratase [EC:4.2.1.17]	ecceTERA
+K01784	galE, GALE; UDP-glucose 4-epimerase [EC:5.1.3.2]	ecceTERA
+K02025	ABC.MS.P; multiple sugar transport system permease protein	ecceTERA
+K02032	ABC.PE.A1; peptide/nickel transport system ATP-binding protein	ecceTERA
+K02034	ABC.PE.P1; peptide/nickel transport system permease protein	ecceTERA
+K02042	phnE; phosphonate transport system permease protein	ecceTERA
+K02199	ccmG, dsbE; cytochrome c biogenesis protein CcmG, thiol:disulfide interchange protein DsbE	ecceTERA
+K02294	crtR; beta-carotene hydroxylase [EC:1.14.13.-]	ecceTERA
+K02527	kdtA, waaA; 3-deoxy-D-manno-octulosonic-acid transferase [EC:2.4.99.12 2.4.99.13 2.4.99.14 2.4.99.15]	ecceTERA
+K02573	napG; ferredoxin-type protein NapG	ecceTERA
+K03046	rpoC; DNA-directed RNA polymerase subunit beta' [EC:2.7.7.6]	ecceTERA
+K03574	mutT, NUDT15, MTH2; 8-oxo-dGTP diphosphatase [EC:3.6.1.55]	ecceTERA
+K03575	mutY; A/G-specific adenine glycosylase [EC:3.2.2.31]	ecceTERA
+K03636	moaD, cysO; sulfur-carrier protein	ecceTERA
+K03701	uvrA; excinuclease ABC subunit A	ecceTERA
+K03825	yhhY; putative acetyltransferase [EC:2.3.1.-]	ecceTERA
+K07006	K07006; uncharacterized protein	ecceTERA
+K07305	msrB; peptide-methionine (R)-S-oxide reductase [EC:1.8.4.12]	ecceTERA
+K07497	K07497; putative transposase	ecceTERA
+K07552	bcr, tcaB; MFS transporter, DHA1 family, multidrug resistance protein	ecceTERA
+K09022	ridA, tdcF, RIDA; 2-iminobutanoate/2-iminopropanoate deaminase [EC:3.5.99.10]	ecceTERA
+K10716	kch, trkA, mthK, pch; voltage-gated potassium channel	ecceTERA
+K11690	dctM; C4-dicarboxylate transporter, DctM subunit	ecceTERA
+K12370	dppC; dipeptide transport system permease protein	ecceTERA
+K13599	ntrX; two-component system, NtrC family, nitrogen regulation response regulator NtrX	ecceTERA
+K13896	yejF; microcin C transport system ATP-binding protein	ecceTERA
+K14056	puuR; HTH-type transcriptional regulator, repressor for puuD	ecceTERA
+K15012	regA, regR, actR; two-component system, response regulator RegA	ecceTERA
+K15537	AGMO; alkylglycerol monooxygenase [EC:1.14.16.5]	ecceTERA
+K15735	csiR; GntR family transcriptional regulator, carbon starvation induced regulator	ecceTERA
+K16844	comC; (2R)-3-sulfolactate dehydrogenase (NADP+) [EC:1.1.1.338]	ecceTERA
+K18900	bpeT; LysR family transcriptional regulator, regulator for bpeEF and oprC	ecceTERA
+K19311	lipV; lipase [EC:3.1.1.-]	ecceTERA
+K21698	aaeR; LysR family transcriptional regulator, transcriptional activator for aaeXAB operon	ecceTERA
+K22044	ybiO; moderate conductance mechanosensitive channel	ecceTERA
+K23773	hdfR; LysR family transcriptional regulator, flagellar master operon regulator	ecceTERA
+K00036	G6PD, zwf; glucose-6-phosphate 1-dehydrogenase [EC:1.1.1.49 1.1.1.363]	Angst
+K00059	fabG, OAR1; 3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]	Angst
+K00067	rfbD, rmlD; dTDP-4-dehydrorhamnose reductase [EC:1.1.1.133]	Angst
+K00315	DMGDH; dimethylglycine dehydrogenase [EC:1.5.8.4]	Angst
+K00325	pntB; H+-translocating NAD(P) transhydrogenase subunit beta [EC:1.6.1.2 7.1.1.1]	Angst
+K00428	E1.11.1.5; cytochrome c peroxidase [EC:1.11.1.5]	Angst
+K00554	trmD; tRNA (guanine37-N1)-methyltransferase [EC:2.1.1.228]	Angst
+K00784	rnz; ribonuclease Z [EC:3.1.26.11]	Angst
+K00789	metK; S-adenosylmethionine synthetase [EC:2.5.1.6]	Angst
+K00798	MMAB, pduO; cob(I)alamin adenosyltransferase [EC:2.5.1.17]	Angst
+K00817	hisC; histidinol-phosphate aminotransferase [EC:2.6.1.9]	Angst
+K00973	E2.7.7.24, rfbA, rffH; glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	Angst
+K01066	aes; acetyl esterase [EC:3.1.1.-]	Angst
+K01091	gph; phosphoglycolate phosphatase [EC:3.1.3.18]	Angst
+K01159	ruvC; crossover junction endodeoxyribonuclease RuvC [EC:3.1.22.4]	Angst
+K01255	CARP, pepA; leucyl aminopeptidase [EC:3.4.11.1]	Angst
+K01266	dmpA, dap; D-aminopeptidase [EC:3.4.11.19]	Angst
+K01434	E3.5.1.11; penicillin amidase [EC:3.5.1.11]	Angst
+K01438	argE; acetylornithine deacetylase [EC:3.5.1.16]	Angst
+K01451	hipO; hippurate hydrolase [EC:3.5.1.32]	Angst
+K01563	dhaA; haloalkane dehalogenase [EC:3.8.1.5]	Angst
+K01698	hemB, ALAD; porphobilinogen synthase [EC:4.2.1.24]	Angst
+K01710	E4.2.1.46, rfbB, rffG; dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]	Angst
+K01839	deoB; phosphopentomutase [EC:5.4.2.7]	Angst
+K01912	paaK; phenylacetate-CoA ligase [EC:6.2.1.30]	Angst
+K01915	glnA, GLUL; glutamine synthetase [EC:6.3.1.2]	Angst
+K01938	fhs; formate--tetrahydrofolate ligase [EC:6.3.4.3]	Angst
+K02002	proX; glycine betaine/proline transport system substrate-binding protein	Angst
+K02010	afuC, fbpC; iron(III) transport system ATP-binding protein [EC:7.2.2.7]	Angst
+K02037	pstC; phosphate transport system permease protein	Angst
+K02041	phnC; phosphonate transport system ATP-binding protein [EC:7.3.2.2]	Angst
+K02057	ABC.SS.P; simple sugar transport system permease protein	Angst
+K02065	mlaF, linL, mkl; phospholipid/cholesterol/gamma-HCH transport system ATP-binding protein	Angst
+K02199	ccmG, dsbE; cytochrome c biogenesis protein CcmG, thiol:disulfide interchange protein DsbE	Angst
+K02316	dnaG; DNA primase [EC:2.7.7.101]	Angst
+K02358	tuf, TUFM; elongation factor Tu	Angst
+K02444	glpR; DeoR family transcriptional regulator, glycerol-3-phosphate regulon repressor	Angst
+K02469	gyrA; DNA gyrase subunit A [EC:5.6.2.2]	Angst
+K02483	K02483; two-component system, OmpR family, response regulator	Angst
+K02535	lpxC; UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [EC:3.5.1.108]	Angst
+K02879	RP-L17, MRPL17, rplQ; large subunit ribosomal protein L17	Angst
+K02892	RP-L23, MRPL23, rplW; large subunit ribosomal protein L23	Angst
+K03310	TC.AGCS; alanine or glycine:cation symporter, AGCS family	Angst
+K03312	gltS; glutamate:Na+ symporter, ESS family	Angst
+K03474	pdxJ; pyridoxine 5-phosphate synthase [EC:2.6.99.2]	Angst
+K03545	tig; trigger factor	Angst
+K03576	metR; LysR family transcriptional regulator, regulator for metE and metH	Angst
+K03584	recO; DNA repair protein RecO (recombination protein O)	Angst
+K03611	dsbB; disulfide bond formation protein DsbB	Angst
+K03634	lolA; outer membrane lipoprotein carrier protein	Angst
+K03719	lrp; Lrp/AsnC family transcriptional regulator, leucine-responsive regulatory protein	Angst
+K03734	apbE; FAD:protein FMN transferase [EC:2.7.1.180]	Angst
+K03745	slyX; SlyX protein	Angst
+K03746	hns; DNA-binding protein H-NS	Angst
+K03980	murJ, mviN; putative peptidoglycan lipid II flippase	Angst
+K04042	glmU; bifunctional UDP-N-acetylglucosamine pyrophosphorylase / Glucosamine-1-phosphate N-acetyltransferase [EC:2.7.7.23 2.3.1.157]	Angst
+K04744	lptD, imp, ostA; LPS-assembly protein	Angst
+K04751	glnB; nitrogen regulatory protein P-II 1	Angst
+K04752	glnK; nitrogen regulatory protein P-II 2	Angst
+K04782	pchB; isochorismate pyruvate lyase [EC:4.2.99.21]	Angst
+K05366	mrcA; penicillin-binding protein 1A [EC:2.4.1.129 3.4.16.4]	Angst
+K05802	mscK, kefA, aefA; potassium-dependent mechanosensitive channel	Angst
+K05836	hutC; GntR family transcriptional regulator, histidine utilization repressor	Angst
+K05946	tagA, tarA; N-acetylglucosaminyldiphosphoundecaprenol N-acetyl-beta-D-mannosaminyltransferase [EC:2.4.1.187]	Angst
+K06196	ccdA; cytochrome c-type biogenesis protein	Angst
+K06891	clpS; ATP-dependent Clp protease adaptor protein ClpS	Angst
+K06902	UMF1; MFS transporter, UMF1 family	Angst
+K06976	K06976; uncharacterized protein	Angst
+K07023	K07023; putative hydrolases of HD superfamily	Angst
+K07025	K07025; putative hydrolase of the HAD superfamily	Angst
+K07046	K07046; L-fuconolactonase [EC:3.1.1.-]	Angst
+K07096	K07096; uncharacterized protein	Angst
+K07391	comM; magnesium chelatase family protein	Angst
+K07402	xdhC; xanthine dehydrogenase accessory factor	Angst
+K07460	yraN; putative endonuclease	Angst
+K07498	K07498; putative transposase	Angst
+K07636	phoR; two-component system, OmpR family, phosphate regulon sensor histidine kinase PhoR [EC:2.7.13.3]	Angst
+K07637	phoQ; two-component system, OmpR family, sensor histidine kinase PhoQ [EC:2.7.13.3]	Angst
+K07746	parD1_3_4; antitoxin ParD1/3/4	Angst
+K08305	mltB; membrane-bound lytic murein transglycosylase B [EC:4.2.2.-]	Angst
+K08738	CYC; cytochrome c	Angst
+K08990	ycjF; putative membrane protein	Angst
+K09472	puuC, aldH; 4-(gamma-glutamylamino)butanal dehydrogenase [EC:1.2.1.99]	Angst
+K09914	K09914; putative lipoprotein	Angst
+K09969	aapJ, bztA; general L-amino acid transport system substrate-binding protein	Angst
+K10440	rbsC; ribose transport system permease protein	Angst
+K10553	frcC; fructose transport system permease protein	Angst
+K10560	rhaP; rhamnose transport system permease protein	Angst
+K11690	dctM; C4-dicarboxylate transporter, DctM subunit	Angst
+K12454	rfbE; CDP-paratose 2-epimerase [EC:5.1.3.10]	Angst
+K14447	ecm; ethylmalonyl-CoA mutase [EC:5.4.99.63]	Angst
+K14998	SURF1, SHY1; surfeit locus 1 family protein	Angst
+K15034	yaeJ; ribosome-associated protein	Angst
+K16566	exoY; exopolysaccharide production protein ExoY	Angst
+K16870	wbbL; N-acetylglucosaminyl-diphospho-decaprenol L-rhamnosyltransferase [EC:2.4.1.289]	Angst
+K17322	K17322, glpP; glycerol transport system permease protein	Angst
+K18013	kce; 3-keto-5-aminohexanoate cleavage enzyme [EC:2.3.1.247]	Angst
+K18979	queG; epoxyqueuosine reductase [EC:1.17.99.6]	Angst
+K19311	lipV; lipase [EC:3.1.1.-]	Angst
+K19340	nosF; Cu-processing system ATP-binding protein	Angst
+K19342	nosL; copper chaperone NosL	Angst
+K21393	yiaN; TRAP-type transport system large permease protein	Angst
+K21395	yiaO; TRAP-type transport system periplasmic protein	Angst
+K22216	ilvD1; dehydratase ilvD1	Angst
+K22310	olsB; L-ornithine Nalpha-acyltransferase [EC:2.3.2.30]	Angst
+K23464	tgnB; flavin-dependent trigonelline monooxygenase, oxygenase component [EC:1.14.14.-]	Angst
+K23509	ytfT, yjfF; galactofuranose transport system permease protein	Angst
+K23997	nnr; ADP-dependent NAD(P)H-hydrate dehydratase / NAD(P)H-hydrate epimerase [EC:4.2.1.136 5.1.99.6]	Angst
