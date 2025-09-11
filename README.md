@@ -4,9 +4,13 @@
 
 This repository contains the scripts used to analyze data and some data for the manuscript "Decoding Coral Resistance to Eutrophication: Selection of Hyper-Efficient Denitrifiers as Key Microbial Allies"
 
-This repository appears to focus on **phylogenetic analysis, ancestral reconstruction, and gene arrangement studies** for microbial or genomic datasets.
+This repository focus on **phylogenetic analysis, ancestral reconstruction, and gene arrangement studies** for microbial or genomic datasets.
 
 ## Main Scripts
+
+- Amplicon data analysis is primarily carried out using [amplicon_workflow](https://github.com/444thLiao/amplicon_workflow)
+
+> A unified, configurable amplicon analysis pipeline built using Luigi. It integrates several common amplicon-data methods (QIIME2-DADA2, QIIME2-Deblur, VSEARCH, USEARCH) so users can run different methods in parallel or pick the one they prefer.
 
 - **ancestral_reconstruction.py**  
 
@@ -16,7 +20,7 @@ This repository appears to focus on **phylogenetic analysis, ancestral reconstru
     - Loads a species tree and prunes it to target genomes.
     - Selects representative genomes from each monophyletic cluster (based on nanopore sequencing, target list, or random selection).
 
-    2. **Orthogroup inference**  
+    1. **Orthogroup inference**  
     - Runs **OrthoFinder** to define orthologous groups (OGs) from protein sequences.
     - Aligns OG sequences with **MAFFT** and builds gene trees with **IQ-TREE**.
 
