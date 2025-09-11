@@ -78,7 +78,7 @@ This repository appears to focus on **phylogenetic analysis, ancestral reconstru
   Contains input data, results related to ancestral state reconstruction analyses.
 
 - **figures/**  
-  Stores generated figures (tree visualizations, heatmaps, synteny plots, etc.).
+  Stores ipython notebooks and scripts for generating figures (tree visualizations, heatmaps, synteny plots, etc.).
 
 - **Trees_amplicon/**  
   Contains phylogenetic trees, built from amplifying region from all used Ruegeria genomes.
