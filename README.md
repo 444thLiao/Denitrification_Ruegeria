@@ -6,6 +6,24 @@ This repository contains the scripts used to analyze data and some data for the 
 
 This repository focus on **phylogenetic analysis, ancestral reconstruction, and gene arrangement studies** for microbial or genomic datasets.
 
+## Installation
+
+The installation of software used in Amplicon data analysis see [amplicon_workflow](https://github.com/444thLiao/amplicon_workflow)
+
+
+`pip install pandas==1.3.5 biopython==1.79 tqdm==4.65.0 ete3==3.1.2 plotly==4.14.3`
+
+The installtion time should be less time one hour if network is fine.
+
+Installtion of `mafft ecceTERA angst orthofinder` please refer to corresponding websites.
+
+
+## Demo
+Since most of the path within scripts are referred to the path in LuoLab server. I provided some example data in the demo folder to help reader to go throught the script.
+
+The expected output containing all samples (beyond the demo data) are deposited on the corresponding folders `(Trees_amplicon, Trees_Denitrification, ancestral_reconstruction)` .
+
+
 ## Main Scripts
 
 - Amplicon data analysis is primarily carried out using [amplicon_workflow](https://github.com/444thLiao/amplicon_workflow)
