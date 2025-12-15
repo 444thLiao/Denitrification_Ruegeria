@@ -10,10 +10,9 @@ This repository focus on **phylogenetic analysis, ancestral reconstruction, and 
 
 The installation of software used in Amplicon data analysis see [amplicon_workflow](https://github.com/444thLiao/amplicon_workflow)
 
-
 `pip install pandas==1.3.5 biopython==1.79 tqdm==4.65.0 ete3==3.1.2 plotly==4.14.3`
 
-The installtion time should be less time one hour if network is fine.
+The installtion time should be less than one hour if network is fine.
 
 Installtion of `mafft ecceTERA angst orthofinder` please refer to corresponding websites.
 
@@ -101,6 +100,13 @@ The expected output containing all samples (beyond the demo data) are deposited 
 
 - **figures/**  
   Stores ipython notebooks and scripts for generating figures (tree visualizations, heatmaps, synteny plots, etc.).
+
+  QGIS code for generating figure1A and EPD data during 2012-2022 for the figure.
+
+- **nirS_analysis/**  
+  Traditional nirS amplicon data and script across different sites. You could find raw reads table with assigned genus or family.
+
+  Detailed taxonomic assignment could follow the code.
 
 - **Trees_amplicon/**  
   Contains phylogenetic trees, built from amplifying region from all used Ruegeria genomes.
