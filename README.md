@@ -116,6 +116,9 @@ The expected output containing all samples (beyond the demo data) are deposited 
 
 - **phylosig_itol**  
   The results of phylogenetic signal (e.g., Blomberg's K, Pagel's λ) and prepare datasets for visualization in iTOL (Interactive Tree Of Life).
+
+- **ANI**  
+  Script for calculating ANI and dataframe of ANI.
 ---
 
 # Notes
